@@ -1,0 +1,21 @@
+{
+  "fictional_demo": true,
+  "offered_for_sale": false,
+  "reference": "DEMO-VL-001",
+  "title": "Villa Luma | Contemporary Mediterranean Living",
+  "property_type": "Detached villa",
+  "location": "Olive Grove — fictional setting",
+  "street_address": null,
+  "listing_url": null,
+  "illustrative_price": 1450000,
+  "currency": "EUR",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "interior_area_m2": 320,
+  "plot_area_m2": 950,
+  "floors": 2,
+  "pool_dimensions_m": [10, 4],
+  "presenter": {"name": "Alex Morgan", "fictional": true, "image": "presenter/11-broker.png", "contact": null},
+  "photo_order": ["01-exterior", "02-entry", "03-living", "04-kitchen", "05-dining", "06-primary-bedroom", "07-primary-bathroom", "08-guest-bedroom", "09-covered-terrace", "10-pool-garden"],
+  "disclosure": "AI-generated property and presenter · Fictional demo · Not for sale"
+}

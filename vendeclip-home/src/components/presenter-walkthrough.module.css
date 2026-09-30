@@ -1,0 +1,28 @@
+.section { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 80px); align-items: center; scroll-margin-top: 100px; }
+.visual { min-width: 0; border: 1px solid var(--line); border-radius: 22px; overflow: hidden; background: #fff; }
+.image { position: relative; height: 320px; background: #eee; }
+.image img { object-fit: cover; object-position: center 32%; }
+.badge { position: absolute; top: 20px; left: 20px; right: 20px; width: fit-content; display: flex; align-items: center; gap: 8px; border-radius: 30px; background: white; padding: 10px 14px; font-size: .75rem; font-weight: 700; letter-spacing: .04em; }
+.badge svg { width: 16px; height: 16px; color: var(--accent); }
+.preview { padding: 26px; min-height: 245px; }
+.preview h3 { font-size: 1.35rem; letter-spacing: -.035em; margin: 10px 0; }
+.preview p { color: var(--muted); font-size: 1rem; line-height: 1.75; }
+.controls { border-top: 1px solid var(--line); padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.controls > span { font-size: .875rem; color: var(--muted); }
+.controls button { display: inline-flex; align-items: center; gap: 8px; background: none; border: 0; padding: 8px 0; cursor: pointer; color: var(--foreground); font: inherit; font-size: .875rem; font-weight: 650; }
+.controls svg, .sequence svg { width: 16px; height: 16px; flex-shrink: 0; }
+.copy { min-width: 0; }
+.copy h2 { font-size: clamp(2rem, 3.4vw, 3.25rem); letter-spacing: -.055em; line-height: 1.13; margin: 16px 0 22px; }
+.copy > p { font-size: 1rem; line-height: 1.85; color: var(--muted); }
+.steps { display: grid; gap: 10px; margin: 26px 0; }
+.steps button { display: flex; align-items: flex-start; gap: 16px; text-align: left; padding: 18px; background: transparent; border: 1px solid transparent; border-radius: 12px; font: inherit; color: var(--foreground); cursor: pointer; }
+.steps button[aria-pressed="true"] { background: var(--accent-light); border-color: var(--accent); }
+.steps button:hover { border-color: var(--accent); }
+.steps button:focus-visible, .controls button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.number { color: var(--accent); font-size: .875rem; font-weight: 700; padding-top: 2px; }
+.steps strong { display: block; font-size: 1rem; margin-bottom: 6px; }
+.description { display: block; color: var(--muted); font-size: .875rem; line-height: 1.7; }
+.copy > small { display: block; color: var(--muted); font-size: .875rem; line-height: 1.6; margin-top: 16px; }
+.sequence { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 20px; font-size: .875rem; font-weight: 600; }
+@media (max-width: 800px) { .section { grid-template-columns: 1fr; } .copy { order: -1; } .image { height: 340px; } .preview { min-height: 0; } }
+@media (max-width: 420px) { .image { height: 280px; } .preview, .controls { padding: 20px; } .steps button { padding: 14px; gap: 12px; } }

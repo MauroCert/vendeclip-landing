@@ -1,0 +1,681 @@
+[
+  {
+    "country": "AD",
+    "name": "Clara Soler",
+    "city": "Andorra la Vella",
+    "quote": 0,
+    "image": "/media/people/ad.webp"
+  },
+  {
+    "country": "AE",
+    "name": "Mariam Al Nuaimi",
+    "city": "Dubai",
+    "quote": 1,
+    "image": "/media/people/ae.webp"
+  },
+  {
+    "country": "AG",
+    "name": "Daniel Thomas",
+    "city": "St. John's",
+    "quote": 2,
+    "image": "/media/people/ag.webp"
+  },
+  {
+    "country": "AL",
+    "name": "Elira Dervishi",
+    "city": "Tirana",
+    "quote": 3,
+    "image": "/media/people/al.webp"
+  },
+  {
+    "country": "AM",
+    "name": "Aram Petrosyan",
+    "city": "Yerevan",
+    "quote": 4,
+    "image": "/media/people/am.webp"
+  },
+  {
+    "country": "AR",
+    "name": "Lucía Ferrer",
+    "city": "Buenos Aires",
+    "quote": 5,
+    "image": "/media/people/ar.webp"
+  },
+  {
+    "country": "AT",
+    "name": "Lukas Berger",
+    "city": "Vienna",
+    "quote": 0,
+    "image": "/media/people/at.webp"
+  },
+  {
+    "country": "AU",
+    "name": "Amelia Brooks",
+    "city": "Melbourne",
+    "quote": 1,
+    "image": "/media/people/au.webp"
+  },
+  {
+    "country": "AX",
+    "name": "Emilia Lindholm",
+    "city": "Mariehamn",
+    "quote": 2,
+    "image": "/media/people/ax.webp"
+  },
+  {
+    "country": "AZ",
+    "name": "Leyla Mammadova",
+    "city": "Baku",
+    "quote": 3,
+    "image": "/media/people/az.webp"
+  },
+  {
+    "country": "BA",
+    "name": "Amir Hadžić",
+    "city": "Sarajevo",
+    "quote": 4,
+    "image": "/media/people/ba.webp"
+  },
+  {
+    "country": "BB",
+    "name": "Simone Clarke",
+    "city": "Bridgetown",
+    "quote": 5,
+    "image": "/media/people/bb.webp"
+  },
+  {
+    "country": "BE",
+    "name": "Julien Vermeulen",
+    "city": "Brussels",
+    "quote": 0,
+    "image": "/media/people/be.webp"
+  },
+  {
+    "country": "BG",
+    "name": "Elena Petrova",
+    "city": "Sofia",
+    "quote": 1,
+    "image": "/media/people/bg.webp"
+  },
+  {
+    "country": "BO",
+    "name": "Mateo Vargas",
+    "city": "Santa Cruz",
+    "quote": 2,
+    "image": "/media/people/bo.webp"
+  },
+  {
+    "country": "BR",
+    "name": "Marina Costa",
+    "city": "São Paulo",
+    "quote": 3,
+    "image": "/media/people/br.webp"
+  },
+  {
+    "country": "BS",
+    "name": "Andre Knowles",
+    "city": "Nassau",
+    "quote": 4,
+    "image": "/media/people/bs.webp"
+  },
+  {
+    "country": "BY",
+    "name": "Alina Novik",
+    "city": "Minsk",
+    "quote": 5,
+    "image": "/media/people/by.webp"
+  },
+  {
+    "country": "BZ",
+    "name": "Isabel Castillo",
+    "city": "Belize City",
+    "quote": 0,
+    "image": "/media/people/bz.webp"
+  },
+  {
+    "country": "CA",
+    "name": "Alexandra Chen",
+    "city": "Vancouver",
+    "quote": 1,
+    "image": "/media/people/ca.webp"
+  },
+  {
+    "country": "CH",
+    "name": "Nora Keller",
+    "city": "Zurich",
+    "quote": 2,
+    "image": "/media/people/ch.webp"
+  },
+  {
+    "country": "CL",
+    "name": "Tomás Rojas",
+    "city": "Santiago",
+    "quote": 3,
+    "image": "/media/people/cl.webp"
+  },
+  {
+    "country": "CO",
+    "name": "Valentina Duarte",
+    "city": "Medellín",
+    "quote": 4,
+    "image": "/media/people/co.webp"
+  },
+  {
+    "country": "CR",
+    "name": "Diego Mora",
+    "city": "San José",
+    "quote": 5,
+    "image": "/media/people/cr.webp"
+  },
+  {
+    "country": "CU",
+    "name": "Camila Valdés",
+    "city": "Havana",
+    "quote": 0,
+    "image": "/media/people/cu.webp"
+  },
+  {
+    "country": "CY",
+    "name": "Andreas Nicolaou",
+    "city": "Limassol",
+    "quote": 1,
+    "image": "/media/people/cy.webp"
+  },
+  {
+    "country": "CZ",
+    "name": "Tereza Nováková",
+    "city": "Prague",
+    "quote": 2,
+    "image": "/media/people/cz.webp"
+  },
+  {
+    "country": "DE",
+    "name": "Felix Hartmann",
+    "city": "Hamburg",
+    "quote": 3,
+    "image": "/media/people/de.webp"
+  },
+  {
+    "country": "DK",
+    "name": "Freja Madsen",
+    "city": "Copenhagen",
+    "quote": 4,
+    "image": "/media/people/dk.webp"
+  },
+  {
+    "country": "DM",
+    "name": "Gabriel Joseph",
+    "city": "Roseau",
+    "quote": 5,
+    "image": "/media/people/dm.webp"
+  },
+  {
+    "country": "DO",
+    "name": "Carolina Méndez",
+    "city": "Santo Domingo",
+    "quote": 0,
+    "image": "/media/people/do.webp"
+  },
+  {
+    "country": "EC",
+    "name": "Sebastián Vega",
+    "city": "Quito",
+    "quote": 1,
+    "image": "/media/people/ec.webp"
+  },
+  {
+    "country": "EE",
+    "name": "Liis Tamm",
+    "city": "Tallinn",
+    "quote": 2,
+    "image": "/media/people/ee.webp"
+  },
+  {
+    "country": "ES",
+    "name": "Alba Navarro",
+    "city": "Valencia",
+    "quote": 3,
+    "image": "/media/people/es.webp"
+  },
+  {
+    "country": "FI",
+    "name": "Mikko Laine",
+    "city": "Helsinki",
+    "quote": 4,
+    "image": "/media/people/fi.webp"
+  },
+  {
+    "country": "FO",
+    "name": "Anna Jacobsen",
+    "city": "Tórshavn",
+    "quote": 5,
+    "image": "/media/people/fo.webp"
+  },
+  {
+    "country": "FR",
+    "name": "Camille Laurent",
+    "city": "Lyon",
+    "quote": 0,
+    "image": "/media/people/fr.webp"
+  },
+  {
+    "country": "GB",
+    "name": "Oliver Bennett",
+    "city": "London",
+    "quote": 1,
+    "image": "/media/people/gb.webp"
+  },
+  {
+    "country": "GD",
+    "name": "Alicia Peters",
+    "city": "St. George's",
+    "quote": 2,
+    "image": "/media/people/gd.webp"
+  },
+  {
+    "country": "GE",
+    "name": "Nino Maisuradze",
+    "city": "Tbilisi",
+    "quote": 3,
+    "image": "/media/people/ge.webp"
+  },
+  {
+    "country": "GG",
+    "name": "Emma Le Page",
+    "city": "St. Peter Port",
+    "quote": 4,
+    "image": "/media/people/gg.webp"
+  },
+  {
+    "country": "GI",
+    "name": "Daniel Cortes",
+    "city": "Gibraltar",
+    "quote": 5,
+    "image": "/media/people/gi.webp"
+  },
+  {
+    "country": "GR",
+    "name": "Sofia Papadopoulou",
+    "city": "Athens",
+    "quote": 0,
+    "image": "/media/people/gr.webp"
+  },
+  {
+    "country": "GT",
+    "name": "Andrés Morales",
+    "city": "Guatemala City",
+    "quote": 1,
+    "image": "/media/people/gt.webp"
+  },
+  {
+    "country": "GY",
+    "name": "Priya Persaud",
+    "city": "Georgetown",
+    "quote": 2,
+    "image": "/media/people/gy.webp"
+  },
+  {
+    "country": "HN",
+    "name": "Daniela Flores",
+    "city": "Tegucigalpa",
+    "quote": 3,
+    "image": "/media/people/hn.webp"
+  },
+  {
+    "country": "HR",
+    "name": "Luka Kovač",
+    "city": "Zagreb",
+    "quote": 4,
+    "image": "/media/people/hr.webp"
+  },
+  {
+    "country": "HT",
+    "name": "Nadine Jean",
+    "city": "Port-au-Prince",
+    "quote": 5,
+    "image": "/media/people/ht.webp"
+  },
+  {
+    "country": "HU",
+    "name": "Eszter Varga",
+    "city": "Budapest",
+    "quote": 0,
+    "image": "/media/people/hu.webp"
+  },
+  {
+    "country": "IE",
+    "name": "Cian Murphy",
+    "city": "Dublin",
+    "quote": 1,
+    "image": "/media/people/ie.webp"
+  },
+  {
+    "country": "IM",
+    "name": "Sophie Quayle",
+    "city": "Douglas",
+    "quote": 2,
+    "image": "/media/people/im.webp"
+  },
+  {
+    "country": "IS",
+    "name": "Elín Jónsdóttir",
+    "city": "Reykjavík",
+    "quote": 3,
+    "image": "/media/people/is.webp"
+  },
+  {
+    "country": "IT",
+    "name": "Giulia Moretti",
+    "city": "Milan",
+    "quote": 4,
+    "image": "/media/people/it.webp"
+  },
+  {
+    "country": "JE",
+    "name": "Thomas Le Gallais",
+    "city": "St. Helier",
+    "quote": 5,
+    "image": "/media/people/je.webp"
+  },
+  {
+    "country": "JM",
+    "name": "Monique Campbell",
+    "city": "Kingston",
+    "quote": 0,
+    "image": "/media/people/jm.webp"
+  },
+  {
+    "country": "JP",
+    "name": "佐藤 美咲",
+    "city": "東京",
+    "quote": 1,
+    "image": "/media/people/jp.webp"
+  },
+  {
+    "country": "KN",
+    "name": "Marcus Williams",
+    "city": "Basseterre",
+    "quote": 2,
+    "image": "/media/people/kn.webp"
+  },
+  {
+    "country": "LC",
+    "name": "Chantal Joseph",
+    "city": "Castries",
+    "quote": 3,
+    "image": "/media/people/lc.webp"
+  },
+  {
+    "country": "LI",
+    "name": "Jonas Beck",
+    "city": "Vaduz",
+    "quote": 4,
+    "image": "/media/people/li.webp"
+  },
+  {
+    "country": "LT",
+    "name": "Ieva Kazlauskaitė",
+    "city": "Vilnius",
+    "quote": 5,
+    "image": "/media/people/lt.webp"
+  },
+  {
+    "country": "LU",
+    "name": "Sophie Weber",
+    "city": "Luxembourg",
+    "quote": 0,
+    "image": "/media/people/lu.webp"
+  },
+  {
+    "country": "LV",
+    "name": "Mārtiņš Ozols",
+    "city": "Riga",
+    "quote": 1,
+    "image": "/media/people/lv.webp"
+  },
+  {
+    "country": "MC",
+    "name": "Élodie Martin",
+    "city": "Monaco",
+    "quote": 2,
+    "image": "/media/people/mc.webp"
+  },
+  {
+    "country": "MD",
+    "name": "Ana Rusu",
+    "city": "Chișinău",
+    "quote": 3,
+    "image": "/media/people/md.webp"
+  },
+  {
+    "country": "ME",
+    "name": "Marko Vuković",
+    "city": "Podgorica",
+    "quote": 4,
+    "image": "/media/people/me.webp"
+  },
+  {
+    "country": "MK",
+    "name": "Ana Stojanovska",
+    "city": "Skopje",
+    "quote": 5,
+    "image": "/media/people/mk.webp"
+  },
+  {
+    "country": "MT",
+    "name": "Daniela Borg",
+    "city": "Valletta",
+    "quote": 0,
+    "image": "/media/people/mt.webp"
+  },
+  {
+    "country": "MX",
+    "name": "Sofía Herrera",
+    "city": "Ciudad de México",
+    "quote": 1,
+    "image": "/media/people/mx.webp"
+  },
+  {
+    "country": "NI",
+    "name": "Alejandro Ruiz",
+    "city": "Managua",
+    "quote": 2,
+    "image": "/media/people/ni.webp"
+  },
+  {
+    "country": "NL",
+    "name": "Noor de Vries",
+    "city": "Utrecht",
+    "quote": 3,
+    "image": "/media/people/nl.webp"
+  },
+  {
+    "country": "NO",
+    "name": "Henrik Solberg",
+    "city": "Oslo",
+    "quote": 4,
+    "image": "/media/people/no.webp"
+  },
+  {
+    "country": "PA",
+    "name": "Isabella Castillo",
+    "city": "Panamá",
+    "quote": 5,
+    "image": "/media/people/pa.webp"
+  },
+  {
+    "country": "PE",
+    "name": "Valeria Salazar",
+    "city": "Lima",
+    "quote": 0,
+    "image": "/media/people/pe.webp"
+  },
+  {
+    "country": "PL",
+    "name": "Katarzyna Nowak",
+    "city": "Warsaw",
+    "quote": 1,
+    "image": "/media/people/pl.webp"
+  },
+  {
+    "country": "PT",
+    "name": "Inês Almeida",
+    "city": "Porto",
+    "quote": 2,
+    "image": "/media/people/pt.webp"
+  },
+  {
+    "country": "PY",
+    "name": "Joaquín Benítez",
+    "city": "Asunción",
+    "quote": 3,
+    "image": "/media/people/py.webp"
+  },
+  {
+    "country": "RO",
+    "name": "Andreea Popescu",
+    "city": "Bucharest",
+    "quote": 4,
+    "image": "/media/people/ro.webp"
+  },
+  {
+    "country": "RS",
+    "name": "Nikola Jovanović",
+    "city": "Belgrade",
+    "quote": 5,
+    "image": "/media/people/rs.webp"
+  },
+  {
+    "country": "RU",
+    "name": "Anna Sokolova",
+    "city": "Moscow",
+    "quote": 0,
+    "image": "/media/people/ru.webp"
+  },
+  {
+    "country": "SE",
+    "name": "Linnea Berg",
+    "city": "Stockholm",
+    "quote": 1,
+    "image": "/media/people/se.webp"
+  },
+  {
+    "country": "SG",
+    "name": "Rachel Tan",
+    "city": "Singapore",
+    "quote": 2,
+    "image": "/media/people/sg.webp"
+  },
+  {
+    "country": "SI",
+    "name": "Maja Novak",
+    "city": "Ljubljana",
+    "quote": 3,
+    "image": "/media/people/si.webp"
+  },
+  {
+    "country": "SJ",
+    "name": "Erik Nilsen",
+    "city": "Longyearbyen",
+    "quote": 4,
+    "image": "/media/people/sj.webp"
+  },
+  {
+    "country": "SK",
+    "name": "Zuzana Kováčová",
+    "city": "Bratislava",
+    "quote": 5,
+    "image": "/media/people/sk.webp"
+  },
+  {
+    "country": "SM",
+    "name": "Matteo Bianchi",
+    "city": "San Marino",
+    "quote": 0,
+    "image": "/media/people/sm.webp"
+  },
+  {
+    "country": "SR",
+    "name": "Anjali Ramkhelawan",
+    "city": "Paramaribo",
+    "quote": 1,
+    "image": "/media/people/sr.webp"
+  },
+  {
+    "country": "SV",
+    "name": "Gabriela Castro",
+    "city": "San Salvador",
+    "quote": 2,
+    "image": "/media/people/sv.webp"
+  },
+  {
+    "country": "TR",
+    "name": "Deniz Yılmaz",
+    "city": "Istanbul",
+    "quote": 3,
+    "image": "/media/people/tr.webp"
+  },
+  {
+    "country": "TT",
+    "name": "Michael Baptiste",
+    "city": "Port of Spain",
+    "quote": 4,
+    "image": "/media/people/tt.webp"
+  },
+  {
+    "country": "UA",
+    "name": "Olena Kovalenko",
+    "city": "Lviv",
+    "quote": 5,
+    "image": "/media/people/ua.webp"
+  },
+  {
+    "country": "US",
+    "name": "Maya Thompson",
+    "city": "Austin",
+    "quote": 0,
+    "image": "/media/people/us.webp"
+  },
+  {
+    "country": "UY",
+    "name": "Martín Pereira",
+    "city": "Montevideo",
+    "quote": 1,
+    "image": "/media/people/uy.webp"
+  },
+  {
+    "country": "VA",
+    "name": "Chiara Ricci",
+    "city": "Vatican City",
+    "quote": 2,
+    "image": "/media/people/va.webp"
+  },
+  {
+    "country": "VC",
+    "name": "Keisha Browne",
+    "city": "Kingstown",
+    "quote": 3,
+    "image": "/media/people/vc.webp"
+  },
+  {
+    "country": "VE",
+    "name": "Andrea Mendoza",
+    "city": "Caracas",
+    "quote": 4,
+    "image": "/media/people/ve.webp"
+  },
+  {
+    "country": "XK",
+    "name": "Arta Krasniqi",
+    "city": "Pristina",
+    "quote": 5,
+    "image": "/media/people/xk.webp"
+  },
+  {
+    "country": "ZA",
+    "name": "Naledi Mokoena",
+    "city": "Johannesburg",
+    "quote": 0,
+    "image": "/media/people/za.webp"
+  }
+]
