@@ -3,6 +3,7 @@ import { useLocalizer } from "@/i18n/use-localizer";
 import { InteractiveCta } from "@/components/interactive-cta";
 import { Header, VideoCard } from "@/components/home-interactions";
 import { HomeSections } from "@/components/home-sections";
+import { CustomerBrokerages } from "@/components/customer-brokerages";
 import { Icon } from "@/components/icon";
 export default function Home() {
   const localize = useLocalizer();
@@ -82,26 +83,31 @@ export default function Home() {
           <div>
             <span>
               <Icon name="instagram" />
-              Instagram
+              Instagram Reels
             </span>
             <span>
               <Icon name="tiktok" />
               TikTok
             </span>
             <span>
-              <Icon name="youtube" />
+              <Icon name="youtubeshorts" />
               YouTube Shorts
+            </span>
+            <span>
+              <Icon name="youtube" />
+              YouTube
             </span>
             <span>
               <Icon name="facebook" />
               Facebook
             </span>
             <span>
-              <Icon name="message" />
+              <Icon name="whatsapp" />
               WhatsApp
             </span>
           </div>
         </section>
+        <CustomerBrokerages />
         <HomeSections />
       </main>
     </>

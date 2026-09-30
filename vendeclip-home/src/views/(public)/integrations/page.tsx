@@ -21,7 +21,7 @@ const channels: [string, IconName, string, string][] = [
   ],
   [
     "YouTube Shorts",
-    "youtube",
+    "youtubeshorts",
     "Guided upload",
     "Bring together the video, title, and description for your next Short.",
   ],

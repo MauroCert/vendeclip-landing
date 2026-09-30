@@ -7,3 +7,7 @@ The public `getPlanPrice` resolver uses nine billing currencies. ARS fields exis
 Country selection is explicit because this static preview has no trusted geolocation headers. No country is inferred from the translated page. The selection is remembered locally and can be shared with `?country=FR`, and survives language changes. Before selection, price cards show a dash rather than an assumed price. The original monthly and yearly amounts are used without exchange-rate conversion.
 
 Denmark uses the application's default DKK behavior. Production can switch Denmark to EUR via an operator-approved flag; that server deployment setting is not available to the static preview. Checkout remains authoritative for taxes, eligibility, and final pricing. This is a verified snapshot, not automatic synchronization.
+
+## Local/Vercel migration
+
+The country selector and browser-stored country preference have been removed. Pricing is now rendered per request using `x-vercel-ip-country`. It does not infer billing country from language or read a `country` query parameter. Missing geolocation defaults to USD. `DEV_PRICING_COUNTRY` provides an optional development-only preview override. Country detection reference: https://vercel.com/docs/headers/request-headers

@@ -1,0 +1,266 @@
+[
+  {
+    "country": "Argentina",
+    "code": "AR",
+    "sentCampaigns": 4,
+    "example": "Argentina - crear cuenta - 20 agosto 2026"
+  },
+  {
+    "country": "Australia",
+    "code": "AU",
+    "sentCampaigns": 1,
+    "example": "Australia - listing busywork - August 2026"
+  },
+  {
+    "country": "Belgium",
+    "code": "BE",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Belgium - 2026-09-28"
+  },
+  {
+    "country": "Belize",
+    "code": "BZ",
+    "sentCampaigns": 2,
+    "example": "Publishing a property - July 2026 - Belize"
+  },
+  {
+    "country": "Bolivia",
+    "code": "BO",
+    "sentCampaigns": 3,
+    "example": "Bolivia - crear cuenta - 20 agosto 2026"
+  },
+  {
+    "country": "Brazil",
+    "code": "BR",
+    "sentCampaigns": 4,
+    "example": "Brasil - criar conta - 21 agosto 2026"
+  },
+  {
+    "country": "Canada",
+    "code": "CA",
+    "sentCampaigns": 5,
+    "example": "Canada - property video leads - 50 sample - September 2026"
+  },
+  {
+    "country": "Chile",
+    "code": "CL",
+    "sentCampaigns": 3,
+    "example": "Chile - crear cuenta - 20 agosto 2026"
+  },
+  {
+    "country": "Colombia",
+    "code": "CO",
+    "sentCampaigns": 3,
+    "example": "Colombia - crear cuenta - 20 agosto 2026"
+  },
+  {
+    "country": "Costa Rica",
+    "code": "CR",
+    "sentCampaigns": 1,
+    "example": "Costa Rica - videos inmobiliarios - agosto 2026"
+  },
+  {
+    "country": "Denmark",
+    "code": "DK",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Denmark - 2026-09-28"
+  },
+  {
+    "country": "República Dominicana",
+    "code": "DO",
+    "sentCampaigns": 1,
+    "example": "República Dominicana - videos inmobiliarios - agosto 2026"
+  },
+  {
+    "country": "Ecuador",
+    "code": "EC",
+    "sentCampaigns": 2,
+    "example": "Ecuador - crear cuenta - 20 agosto 2026"
+  },
+  {
+    "country": "El Salvador",
+    "code": "SV",
+    "sentCampaigns": 2,
+    "example": "Publicar una propiedad - julio 2026 - El Salvador"
+  },
+  {
+    "country": "France",
+    "code": "FR",
+    "sentCampaigns": 5,
+    "example": "Europe trial - France - 2026-09-28"
+  },
+  {
+    "country": "Germany",
+    "code": "DE",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Germany - 2026-09-28"
+  },
+  {
+    "country": "Greece",
+    "code": "GR",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Greece - 2026-09-28"
+  },
+  {
+    "country": "Guatemala",
+    "code": "GT",
+    "sentCampaigns": 3,
+    "example": "Guatemala - videos inmobiliarios - agosto 2026"
+  },
+  {
+    "country": "Honduras",
+    "code": "HN",
+    "sentCampaigns": 2,
+    "example": "Publicar una propiedad - julio 2026 - Honduras"
+  },
+  {
+    "country": "Indonesia",
+    "code": "ID",
+    "sentCampaigns": 1,
+    "example": "Indonesia - property video leads - 27 August 2026"
+  },
+  {
+    "country": "Ireland",
+    "code": "IE",
+    "sentCampaigns": 3,
+    "example": "Europe trial - Ireland - 2026-09-28"
+  },
+  {
+    "country": "Italy",
+    "code": "IT",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Italy - 2026-09-28"
+  },
+  {
+    "country": "Japan",
+    "code": "JP",
+    "sentCampaigns": 3,
+    "example": "日本 - 物件動画パーソナライズ - 2026年9月"
+  },
+  {
+    "country": "Malaysia",
+    "code": "MY",
+    "sentCampaigns": 1,
+    "example": "Malaysia - property video leads - 27 August 2026"
+  },
+  {
+    "country": "Mexico",
+    "code": "MX",
+    "sentCampaigns": 4,
+    "example": "México - crear cuenta - 21 agosto 2026"
+  },
+  {
+    "country": "Netherlands",
+    "code": "NL",
+    "sentCampaigns": 3,
+    "example": "Europe trial - Netherlands - 2026-09-28"
+  },
+  {
+    "country": "Nicaragua",
+    "code": "NI",
+    "sentCampaigns": 2,
+    "example": "Publicar una propiedad - julio 2026 - Nicaragua"
+  },
+  {
+    "country": "Panamá",
+    "code": "PA",
+    "sentCampaigns": 1,
+    "example": "Panamá - videos inmobiliarios - agosto 2026"
+  },
+  {
+    "country": "Paraguay",
+    "code": "PY",
+    "sentCampaigns": 3,
+    "example": "Paraguay - crear cuenta - 20 agosto 2026"
+  },
+  {
+    "country": "Peru",
+    "code": "PE",
+    "sentCampaigns": 3,
+    "example": "Perú - crear cuenta - 20 agosto 2026"
+  },
+  {
+    "country": "Philippines",
+    "code": "PH",
+    "sentCampaigns": 1,
+    "example": "Philippines - property video leads - 27 August 2026"
+  },
+  {
+    "country": "Poland",
+    "code": "PL",
+    "sentCampaigns": 3,
+    "example": "Europe trial - Poland - 2026-09-28"
+  },
+  {
+    "country": "Portugal",
+    "code": "PT",
+    "sentCampaigns": 5,
+    "example": "Europe trial - Portugal - 2026-09-28"
+  },
+  {
+    "country": "Saudi Arabia",
+    "code": "SA",
+    "sentCampaigns": 1,
+    "example": "Saudi Arabia - property video leads - 27 August 2026"
+  },
+  {
+    "country": "Singapore",
+    "code": "SG",
+    "sentCampaigns": 2,
+    "example": "Singapore - property video leads - 26 August 2026"
+  },
+  {
+    "country": "South Africa",
+    "code": "ZA",
+    "sentCampaigns": 1,
+    "example": "South Africa - listing busywork - August 2026"
+  },
+  {
+    "country": "Spain",
+    "code": "ES",
+    "sentCampaigns": 5,
+    "example": "Europe trial - Spain - 2026-09-28"
+  },
+  {
+    "country": "Switzerland",
+    "code": "CH",
+    "sentCampaigns": 3,
+    "example": "Europe trial - Switzerland - 2026-09-28"
+  },
+  {
+    "country": "Türkiye",
+    "code": "TR",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Türkiye - 2026-09-28"
+  },
+  {
+    "country": "United Arab Emirates",
+    "code": "AE",
+    "sentCampaigns": 2,
+    "example": "United Arab Emirates - property video leads - 26 August 2026"
+  },
+  {
+    "country": "United Kingdom",
+    "code": "GB",
+    "sentCampaigns": 3,
+    "example": "Europe trial - United Kingdom - 2026-09-28"
+  },
+  {
+    "country": "US",
+    "code": "US",
+    "sentCampaigns": 17,
+    "example": "US wealthy states Eastern personalized property demo - 2,692 verified leads - 2026-09-14"
+  },
+  {
+    "country": "Uruguay",
+    "code": "UY",
+    "sentCampaigns": 3,
+    "example": "Uruguay - crear cuenta - 20 agosto 2026"
+  },
+  {
+    "country": "Venezuela",
+    "code": "VE",
+    "sentCampaigns": 3,
+    "example": "Venezuela - crear cuenta - 20 agosto 2026"
+  }
+]

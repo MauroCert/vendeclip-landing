@@ -32,7 +32,7 @@ const steps = [
   },
 ];
 
-export function PresenterWalkthrough() {
+export function PresenterWalkthrough({ imageSrc = "/media/presenter.webp" }: { imageSrc?: string }) {
   const localize = useLocalizer();
   const [active, setActive] = useState(0);
   const id = useId();
@@ -42,7 +42,7 @@ export function PresenterWalkthrough() {
     <section className={`section container ${styles.section}`} id="your-presenter" aria-labelledby={`${id}-heading`}>
       <div className={styles.visual}>
         <div className={styles.image}>
-          <Image src="/media/presenter.webp" alt="Illustrative AI presenter outside a modern home" fill sizes="(max-width: 800px) 90vw, 45vw" />
+          <Image src={imageSrc} alt="Illustrative AI presenter outside a modern home" fill sizes="(max-width: 800px) 90vw, 45vw" />
           <span className={styles.badge}><Icon name="sparkles" /> YOUR PRESENTER · EXAMPLE</span>
         </div>
         <div className={styles.preview} id={`${id}-preview`} aria-live="polite" aria-atomic="true">

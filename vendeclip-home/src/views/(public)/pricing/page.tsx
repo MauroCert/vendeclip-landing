@@ -1,6 +1,9 @@
 import { CountryStories } from "@/components/country-stories";
 
-import { useLocalizer } from "@/i18n/use-localizer";
+import { getLocalizer } from "@/i18n/server";
+import { visitorCountry } from "@/lib/visitor-country";
+import { headers } from "next/headers";
+import { currencyForCountry } from "@/lib/regional-pricing";
 import Link from "next/link";
 import { Icon } from "@/components/icon";
 import { PageHero, PageFAQs, PageCTA } from "@/components/public-components";
@@ -8,8 +11,9 @@ import { PricingCards } from "@/components/public-interactions";
 export const metadata = {
   title: "Pricing for agents, teams, and brokerages | VendeClip",
 };
-export default function PricingPage() {
-  const localize = useLocalizer();
+export default async function PricingPage() {
+  const [localize, requestHeaders] = await Promise.all([getLocalizer(), headers()]);
+  const currency = currencyForCountry(visitorCountry(requestHeaders) || 'US');
   return localize((
     <>
       <PageHero
@@ -18,7 +22,7 @@ export default function PricingPage() {
         description="Try your first videos for free. Choose more room to create when your property portfolio—and your ambition—grows."
       />
       <section className="container">
-        <PricingCards />
+        <PricingCards currency={currency} />
       </section>
       <section className="pricing-custom container">
         <div>

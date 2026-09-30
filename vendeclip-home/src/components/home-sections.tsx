@@ -8,7 +8,7 @@ import { SiteFooter } from "./site-footer";
 import Image from "next/image";
 import { Icon, type IconName } from "./icon";
 import { TemplateShowcase } from "./home-interactions";
-import { PresenterWalkthrough } from "./presenter-walkthrough";
+import { LocalizedPresenter } from "./localized-presenter";
 import { ListingToVideo } from "./listing-to-video";
 
 const features: { icon: IconName; title: string; copy: string }[] = [
@@ -226,7 +226,7 @@ export function HomeSections() {
           </div>
         </div>
       </section>
-      <PresenterWalkthrough />
+      <LocalizedPresenter />
       <section className="template-section">
         <div className="container">
           <TemplateShowcase />
@@ -330,7 +330,7 @@ export function HomeSections() {
         </div>
       </section>
       <CountryStories />
-      <section className="section container faq-section" id="faq">
+      <section className="section container faq-section home-faq" id="faq">
         <div>
           <span className="eyebrow">GOOD QUESTIONS</span>
           <h2>
@@ -343,11 +343,12 @@ export function HomeSections() {
           </a>
         </div>
         <div className="faq-list">
-          {faqs.map(([question, answer]) => (
-            <details key={question}>
+          {faqs.map(([question, answer], index) => (
+            <details key={question} open={index === 0}>
               <summary>
-                {question}
-                <Icon name="plus" />
+                <span className="faq-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+                <span className="faq-question">{question}</span>
+                <span className="faq-indicator"><Icon name="plus" /></span>
               </summary>
               <p>{answer}</p>
             </details>

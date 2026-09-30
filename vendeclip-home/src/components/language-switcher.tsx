@@ -12,6 +12,7 @@ export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
     <Icon name="globe" />
     <span className="sr-only">{localize.text('Language')}</span>
     <select aria-label={localize.text('Language')} value={locale} onChange={event => {
+      document.cookie = `vendeclip-language=${event.target.value}; Path=/; Max-Age=31536000; SameSite=Lax${window.location.protocol === 'https:' ? '; Secure' : ''}`;
       const parts = pathname.split('/').filter(Boolean);
       if (isLocale(parts[0] ?? '')) parts.shift();
       const destination = `/${event.target.value}${parts.length ? '/' + parts.join('/') : ''}${window.location.search}${window.location.hash}`;

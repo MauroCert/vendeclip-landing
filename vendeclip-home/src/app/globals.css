@@ -3663,3 +3663,106 @@ html:not(:lang(en)) .button { white-space: normal; text-align: center; }
 @media (max-width: 700px) { .auth-header { flex-wrap: wrap; gap: 16px; } .footer-bottom > div { flex-wrap: wrap; } }
 @media (max-width: 1100px) and (min-width: 761px) { .nav { flex-wrap: wrap; height: auto; min-height: 88px; padding-block: 15px; } .nav-links { order: 3; width: 100%; justify-content: center; } }
 @media (max-width: 760px) { .nav-actions > .button-small { display: none; } .nav-actions .language-switcher svg { display: none; } .nav-actions .language-switcher select { max-width: 124px; } }
+
+/* Homepage channel badges and numbered FAQ, inspired by 21st FAQ patterns. */
+.platforms > div { flex-wrap: wrap; gap: 12px; }
+.platforms > div > span {
+  padding: 13px 18px;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  background: #fff;
+  color: #30352e;
+}
+.platforms svg { flex-shrink: 0; }
+.home-faq { align-items: start; gap: 56px; }
+.home-faq .faq-list { display: grid; gap: 12px; }
+.home-faq .faq-list details {
+  border: 1px solid #e2e6de;
+  border-radius: 18px;
+  background: #fafbf8;
+  overflow: hidden;
+  transition: background .25s, border-color .25s, box-shadow .25s;
+}
+.home-faq .faq-list details[open] {
+  background: #f0f6e9;
+  border-color: #b8cba9;
+  box-shadow: 0 8px 26px #26372108;
+}
+.home-faq .faq-list summary,
+.home-faq .faq-list details:first-child summary { padding: 23px; gap: 16px; font-size: 16px; }
+.home-faq .faq-number { font-size: 12px; color: #65775a; font-variant-numeric: tabular-nums; }
+.home-faq .faq-question { flex: 1; line-height: 1.5; }
+.home-faq .faq-indicator {
+  display: grid; place-items: center; width: 32px; height: 32px;
+  flex-shrink: 0; border-radius: 50%; background: #fff; border: 1px solid #dde5d7;
+}
+.home-faq .faq-list details[open] .faq-indicator { background: #253b25; color: #fff; border-color: #253b25; }
+.home-faq .faq-list details > p { padding: 0 24px 24px 56px; margin: 0; line-height: 1.8; font-size: 15px; }
+.home-faq summary:focus-visible { outline: 2px solid #487344; outline-offset: -4px; border-radius: 18px; }
+@supports (interpolate-size: allow-keywords) {
+  .home-faq details { interpolate-size: allow-keywords; }
+  .home-faq details::details-content {
+    block-size: 0; overflow: clip; opacity: 0;
+    transition: block-size .3s ease, opacity .3s ease, content-visibility .3s allow-discrete;
+  }
+  .home-faq details[open]::details-content { block-size: auto; opacity: 1; }
+}
+@media (max-width: 760px) {
+  .home-faq { grid-template-columns: 1fr; gap: 28px; }
+  .home-faq .faq-list summary, .home-faq .faq-list details:first-child summary { padding: 18px 16px; gap: 10px; }
+  .home-faq .faq-list details > p { padding: 0 18px 22px; }
+  .platforms > div > span { padding: 10px 13px; font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-faq details, .home-faq details::details-content { transition: none; }
+}
+
+/* Oversized brand treatment inspired by 21st's Large Name Footer. */
+.site-footer {
+  margin-top: 72px; padding: 48px 40px 0; border: 1px solid #dce3d6;
+  border-radius: 32px 32px 0 0; background: linear-gradient(150deg,#f6f8f1,#edf4e8);
+  overflow: hidden;
+}
+.footer-invitation { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding-bottom: 44px; margin-bottom: 44px; border-bottom: 1px solid #d4ddcc; }
+.footer-invitation h2 { font-size: clamp(28px,3.7vw,48px); font-weight: 400; line-height: 1.15; letter-spacing: -1px; }
+.footer-invitation h2 em { color: #627a54; font-weight: 400; }
+.footer-create { display: flex; align-items: center; gap: 16px; background: #243322; color: #fff; border-radius: 100px; padding: 19px 24px; font-size: 14px; flex-shrink: 0; }
+.site-footer .footer-create:hover { background: #365532; color: #fff; }
+.site-footer .footer-socials { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.site-footer .footer-socials a { display: grid; place-items: center; width: 40px; height: 40px; border: 1px solid #d5dfcf; border-radius: 50%; color: #293e26; background: #ffffff90; transition: transform .2s, background .2s; }
+.site-footer .footer-socials a:hover { transform: translateY(-4px); background: #d5efbe; }
+.site-footer .footer-socials svg { width: 18px; height: 18px; }
+.site-footer .footer-top { grid-template-columns: 1.5fr 1fr 1fr 1.1fr; }
+.site-footer .footer-top > div { display: block; }
+.footer-newsletter { display: flex; justify-content: space-between; align-items: center; gap: 24px; border-block: 1px solid #d4ddcc; padding: 24px 0; }
+.footer-newsletter h3 { font-size: 16px; margin-bottom: 8px; }
+.footer-newsletter p { font-size: 14px; color: #57644f; }
+.footer-newsletter a { display: flex; align-items: center; gap: 16px; font-size: 14px; text-decoration: underline; text-underline-offset: 5px; }
+.footer-wordmark { display: flex; align-items: center; font-size: clamp(60px,13vw,178px); font-weight: 650; letter-spacing: -.075em; line-height: 1.2; color: #263923; padding: 28px 0 14px; user-select: none; }
+.footer-wordmark span { color: #6d8e5c; }
+.footer-wordmark i { margin-left: auto; font-style: normal; font-size: .65em; transition: transform .3s; }
+.site-footer:hover .footer-wordmark i { transform: translate(4px,-4px); }
+.site-footer a:focus-visible { outline: 2px solid #365532; outline-offset: 4px; }
+@media(max-width:900px) {
+ .site-footer { padding: 32px 24px 0; }
+ .footer-invitation { align-items: flex-start; flex-direction: column; }
+ .site-footer .footer-top { grid-template-columns: 1fr 1fr; }
+ .site-footer .footer-top > div:last-child { grid-column: auto; }
+}
+@media(max-width:520px) {
+ .site-footer { padding: 26px 18px 0; border-radius: 22px 22px 0 0; }
+ .site-footer .footer-brand { grid-column: 1 / -1; }
+ .footer-newsletter { flex-direction: column; align-items: flex-start; }
+ .footer-wordmark { font-size: 17vw; }
+ .footer-wordmark i { display: none; }
+}
+@media(prefers-reduced-motion:reduce) { .site-footer .footer-socials a, .footer-wordmark i { transition: none; transform: none; } }
+.site-footer .footer-top, .site-footer .footer-brand, .site-footer .footer-bottom { background: transparent; }
+
+.customer-brokerages { text-align: center; padding-block: 64px; border-bottom: 1px solid var(--line); }
+.customer-brokerages h2 { font-size: clamp(28px, 3.5vw, 42px); font-weight: 400; margin: 14px 0; }
+.customer-brokerages > p { color: var(--muted); font-size: 15px; line-height: 1.7; }
+.customer-brokerage-logos { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; margin-top: 32px; }
+.customer-brokerage-logo { display: grid; place-items: center; padding: 28px 20px; min-height: 130px; border: 1px solid #e3e7de; border-radius: 16px; background: #fafbf8; }
+.customer-brokerage-logo img { width: 100%; max-width: 210px; height: 70px; object-fit: contain; }
+@media(max-width:700px) { .customer-brokerage-logos { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; } .customer-brokerage-logo { padding: 18px 14px; min-height: 105px; } .customer-brokerage-logo img { height: 58px; } }

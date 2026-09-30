@@ -1,8 +1,7 @@
 "use client";
-import { useCountry } from "@/i18n/use-country";
 import { useLocalizer } from "@/i18n/use-localizer";
 
-import { regionalPrices, pricingCountries, currencyForCountry } from "@/lib/regional-pricing";
+import { regionalPrices, type BillingCurrency } from "@/lib/regional-pricing";
 import Image from "next/image";
 import { InteractiveCta } from "./interactive-cta";
 import Link from "next/link";
@@ -479,14 +478,9 @@ export function FeatureDemo({ product }: { product: ProductPage }) {
     </div>
   ));
 }
-export function PricingCards() {
+export function PricingCards({ currency = "USD" }: { currency?: BillingCurrency }) {
   const localize = useLocalizer();
   const [yearly, setYearly] = useState(false);
-  const [country, selectCountry] = useCountry();
-  const currency = currencyForCountry(country);
-  const regionNames = new Intl.DisplayNames([localize.locale], { type: "region" });
-  const countries = pricingCountries.map(code => ({ code, name: regionNames.of(code) ?? code }))
-    .sort((a, b) => a.name.localeCompare(b.name, localize.locale));
   const plans = [
     {
       name: "Essential",
@@ -494,10 +488,11 @@ export function PricingCards() {
       edits: 15,
       description: "A consistent presence for your next listings.",
       details: [
-        "1080p exports without a watermark",
+        "1080p video resolution",
+        "Exports without watermark",
         "Up to 20 AI clips per video",
         "Videos up to 60 seconds",
-        "Your presenter on paid plans",
+        "Your presenter: cloned voice + professional images",
       ],
     },
     {
@@ -509,7 +504,6 @@ export function PricingCards() {
         "Everything in Essential",
         "Image uploads up to 25 MB",
         "Priority human support",
-        "More monthly video capacity",
       ],
     },
     {
@@ -521,20 +515,11 @@ export function PricingCards() {
         "Everything in Growth",
         "Dedicated account support",
         "Faster video processing",
-        "More AI photo editing capacity",
       ],
     },
   ];
   return localize((
     <>
-      <div className="pricing-region">
-        <label htmlFor="pricing-country">Billing country</label>
-        <select id="pricing-country" value={country} onChange={event => selectCountry(event.target.value)}>
-          <option value="" disabled>Choose your country</option>
-          {countries.map(({ code, name }) => <option key={code} value={code}>{name}</option>)}
-        </select>
-        <p>Choose your billing country to see local prices. Your language stays the same.</p>
-      </div>
       <div
         className="billing-switch"
         role="group"
@@ -544,7 +529,13 @@ export function PricingCards() {
           Monthly
         </button>
         <button aria-pressed={yearly} onClick={() => setYearly(true)}>
-          Yearly <span>Save about 20%</span>
+          Yearly
+          <span className="annual-savings-badge">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <path d="m12 3 2.4 6.6L21 12l-6.6 2.4L12 21l-2.4-6.6L3 12l6.6-2.4L12 3Z" />
+            </svg>
+            <span>Save about 20%</span>
+          </span>
         </button>
       </div>
       <div className="pricing-grid">
@@ -560,14 +551,22 @@ export function PricingCards() {
             <p>{plan.description}</p>
             <div className="plan-price" key={String(yearly)}>
               <strong>
-                {country ? new Intl.NumberFormat(localize.locale, { style: "currency", currency, minimumFractionDigits: yearly ? 2 : 0, maximumFractionDigits: 2 }).format(yearly ? regionalPrices[currency][index].annual / 12 : regionalPrices[currency][index].monthly) : "—"}
+                {new Intl.NumberFormat(localize.locale, { style: "currency", currency, minimumFractionDigits: yearly ? 2 : 0, maximumFractionDigits: 2 }).format(yearly ? regionalPrices[currency][index].annual / 12 : regionalPrices[currency][index].monthly)}
               </strong>
-              <span>/ month</span>
+              <span className="plan-month-label">/ month</span>
+            </div>
+            <div className="plan-unit-price">
+              <strong>{new Intl.NumberFormat(localize.locale, { style: "currency", currency, minimumFractionDigits: currency === "JPY" ? 0 : 2, maximumFractionDigits: currency === "JPY" ? 0 : 2 }).format((yearly ? regionalPrices[currency][index].annual / 12 : regionalPrices[currency][index].monthly) / plan.videos)}</strong>
+              <span>/ video</span>
             </div>
             <span className="plan-billing">
-              {country ? <>{yearly ? `${new Intl.NumberFormat(localize.locale, { style: "currency", currency, maximumFractionDigits: 0 }).format(regionalPrices[currency][index].annual)} billed yearly` : "Billed monthly"} · {currency}</> : "Choose your country"}
+              {yearly ? `${new Intl.NumberFormat(localize.locale, { style: "currency", currency, maximumFractionDigits: 0 }).format(regionalPrices[currency][index].annual)} billed yearly` : "Billed monthly"} · {currency}
             </span>
-            <InteractiveCta className={index === 1 ? "" : "cta-outline"}>Get started</InteractiveCta>
+            <div className="plan-terms">
+              <p>7-day trial with 1 watermark-free 1080p video; cancel anytime.</p>
+              <p>Unused videos roll over for up to 1 year.</p>
+            </div>
+            <InteractiveCta className={index === 1 ? "" : "cta-outline"}>Start free trial</InteractiveCta>
             <strong className="plan-allocation">
               {plan.videos} videos per month
             </strong>

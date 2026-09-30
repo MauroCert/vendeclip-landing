@@ -1,0 +1,398 @@
+[
+  {
+    "country": "Argentina",
+    "code": "AR",
+    "sentCampaigns": 4,
+    "example": "Argentina - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction"
+  },
+  {
+    "country": "Australia",
+    "code": "AU",
+    "sentCampaigns": 1,
+    "example": "Australia - listing busywork - August 2026",
+    "candidate": "Ray White",
+    "evidence": "Company describes itself as Australasia’s largest real estate group; regional scope.",
+    "source": "https://www.raywhite.com/about-us"
+  },
+  {
+    "country": "Belgium",
+    "code": "BE",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Belgium - 2026-09-28",
+    "candidate": "ERA",
+    "evidence": "Company reports Belgian residential market leadership, 140+ offices.",
+    "source": "https://www.era.be/nl/era-invest/blog/belgische-marktleider-vastgoed-lanceert-era-invest-zoals-private-banking-maar-voor"
+  },
+  {
+    "country": "Belize",
+    "code": "BZ",
+    "sentCampaigns": 2,
+    "example": "Publishing a property - July 2026 - Belize",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/wp-content/uploads/2012/03/REMAX_Top50_Global_Team_RES_December_2024_SMALL.pdf"
+  },
+  {
+    "country": "Bolivia",
+    "code": "BO",
+    "sentCampaigns": 3,
+    "example": "Bolivia - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction"
+  },
+  {
+    "country": "Brazil",
+    "code": "BR",
+    "sentCampaigns": 4,
+    "example": "Brasil - criar conta - 21 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Company describes itself as largest Brazilian network, 590 units; company claim.",
+    "source": "https://agro.remax.com.br/quem-somos/"
+  },
+  {
+    "country": "Canada",
+    "code": "CA",
+    "sentCampaigns": 5,
+    "example": "Canada - property video leads - 50 sample - September 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Historical 2023 company material claims highest total transaction sides; current ranking unverified.",
+    "source": "https://franchise.remax.ca/wp-content/uploads/sites/14/2024/03/CAN-Brand-Pillar-One-Sheet-Sep-2023-1.pdf"
+  },
+  {
+    "country": "Chile",
+    "code": "CL",
+    "sentCampaigns": 3,
+    "example": "Chile - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-individual-commercial"
+  },
+  {
+    "country": "Colombia",
+    "code": "CO",
+    "sentCampaigns": 3,
+    "example": "Colombia - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Official national website establishes presence; largest status unverified.",
+    "source": "https://www.remax.co/"
+  },
+  {
+    "country": "Costa Rica",
+    "code": "CR",
+    "sentCampaigns": 1,
+    "example": "Costa Rica - videos inmobiliarios - agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/wp-content/uploads/2012/03/REMAX_Top50_Global_Team_RES_December_2024_SMALL.pdf"
+  },
+  {
+    "country": "Denmark",
+    "code": "DK",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Denmark - 2026-09-28",
+    "candidate": "EDC",
+    "evidence": "Company reports Denmark’s largest agency chain, over 230 offices.",
+    "source": "https://www.edc.dk/om-edc/bag-om-edc/"
+  },
+  {
+    "country": "República Dominicana",
+    "code": "DO",
+    "sentCampaigns": 1,
+    "example": "República Dominicana - videos inmobiliarios - agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction"
+  },
+  {
+    "country": "Ecuador",
+    "code": "EC",
+    "sentCampaigns": 2,
+    "example": "Ecuador - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-individual-commercial"
+  },
+  {
+    "country": "El Salvador",
+    "code": "SV",
+    "sentCampaigns": 2,
+    "example": "Publicar una propiedad - julio 2026 - El Salvador",
+    "candidate": "RE/MAX",
+    "evidence": "Official regional directory lists country operations; largest national status unverified.",
+    "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es"
+  },
+  {
+    "country": "France",
+    "code": "FR",
+    "sentCampaigns": 5,
+    "example": "Europe trial - France - 2026-09-28",
+    "candidate": "iad; SAFTI (confirmed customer workplace)",
+    "evidence": "iad reports transaction leadership; SAFTI is confirmed by owner, not presented as largest.",
+    "source": "https://www.iadgroup.com/wp-content/uploads/2024/01/iad-le-leader-de-la-transaction-immobiliere-en-France-se-lance-au-Royaume-Uni-via-lacquisition-du-reseau-dindependants-David-Lee.pdf"
+  },
+  {
+    "country": "Germany",
+    "code": "DE",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Germany - 2026-09-28",
+    "candidate": "Engel & Völkers",
+    "evidence": "Leadership evidence is specific to multi-family investment brokerage, not all residential sales.",
+    "source": "https://www.engelvoelkers.com/de/en/commercial/insights/guides/market-leader-multi-family-houses"
+  },
+  {
+    "country": "Greece",
+    "code": "GR",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Greece - 2026-09-28",
+    "candidate": "RE/MAX",
+    "evidence": "Company reports largest Greek network, 88 offices and 1,200+ advisors.",
+    "source": "https://www.remax.gr/media/news/800-en.pdf"
+  },
+  {
+    "country": "Guatemala",
+    "code": "GT",
+    "sentCampaigns": 3,
+    "example": "Guatemala - videos inmobiliarios - agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Official regional directory lists country operations; largest national status unverified.",
+    "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es"
+  },
+  {
+    "country": "Honduras",
+    "code": "HN",
+    "sentCampaigns": 2,
+    "example": "Publicar una propiedad - julio 2026 - Honduras",
+    "candidate": "RE/MAX",
+    "evidence": "Official regional directory lists country operations; largest national status unverified.",
+    "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es"
+  },
+  {
+    "country": "Indonesia",
+    "code": "ID",
+    "sentCampaigns": 1,
+    "example": "Indonesia - property video leads - 27 August 2026",
+    "candidate": "Ray White",
+    "evidence": "Indonesian office describes network as largest in Indonesia; not independently ranked.",
+    "source": "https://buleleng.raywhite.co.id/"
+  },
+  {
+    "country": "Ireland",
+    "code": "IE",
+    "sentCampaigns": 3,
+    "example": "Europe trial - Ireland - 2026-09-28",
+    "candidate": "Sherry FitzGerald",
+    "evidence": "Company describes itself as Ireland’s largest estate agency.",
+    "source": "https://www.sherryfitz.ie/specialist-services/buying-internationally"
+  },
+  {
+    "country": "Italy",
+    "code": "IT",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Italy - 2026-09-28",
+    "candidate": "Tecnocasa",
+    "evidence": "Official country operations verified; largest national ranking still unverified.",
+    "source": "https://www.tecnocasagroup.com/en/contacts"
+  },
+  {
+    "country": "Japan",
+    "code": "JP",
+    "sentCampaigns": 3,
+    "example": "日本 - 物件動画パーソナライズ - 2026年9月",
+    "candidate": "Mitsui Fudosan Realty",
+    "evidence": "Company reports 40 consecutive years leading brokered purchase/sale transaction counts through 2025.",
+    "source": "https://global.mf-realty.jp/en/"
+  },
+  {
+    "country": "Malaysia",
+    "code": "MY",
+    "sentCampaigns": 1,
+    "example": "Malaysia - property video leads - 27 August 2026",
+    "candidate": "IQI",
+    "evidence": "Company describes itself as Malaysia’s largest PropTech agency; ranking basis not independently verified.",
+    "source": "https://www.iqiglobal.com/"
+  },
+  {
+    "country": "Mexico",
+    "code": "MX",
+    "sentCampaigns": 4,
+    "example": "México - crear cuenta - 21 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-individual-commercial"
+  },
+  {
+    "country": "Netherlands",
+    "code": "NL",
+    "sentCampaigns": 3,
+    "example": "Europe trial - Netherlands - 2026-09-28",
+    "candidate": "Vivantus / Hendriks",
+    "evidence": "Hendriks identifies parent Vivantus as the largest full-service NVM group; group-level company claim.",
+    "source": "https://hendriks.nl/over-ons"
+  },
+  {
+    "country": "Nicaragua",
+    "code": "NI",
+    "sentCampaigns": 2,
+    "example": "Publicar una propiedad - julio 2026 - Nicaragua",
+    "candidate": "RE/MAX",
+    "evidence": "Official regional directory lists country operations; largest national status unverified.",
+    "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es"
+  },
+  {
+    "country": "Panamá",
+    "code": "PA",
+    "sentCampaigns": 1,
+    "example": "Panamá - videos inmobiliarios - agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Official regional directory lists country operations; largest national status unverified.",
+    "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es"
+  },
+  {
+    "country": "Paraguay",
+    "code": "PY",
+    "sentCampaigns": 3,
+    "example": "Paraguay - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction"
+  },
+  {
+    "country": "Peru",
+    "code": "PE",
+    "sentCampaigns": 3,
+    "example": "Perú - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction"
+  },
+  {
+    "country": "Philippines",
+    "code": "PH",
+    "sentCampaigns": 1,
+    "example": "Philippines - property video leads - 27 August 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction"
+  },
+  {
+    "country": "Poland",
+    "code": "PL",
+    "sentCampaigns": 3,
+    "example": "Europe trial - Poland - 2026-09-28",
+    "candidate": "Freedom",
+    "evidence": "Company describes itself as largest Polish network following acquisition; nearly 100 branches.",
+    "source": "https://freedom.pl/dla-mediow/"
+  },
+  {
+    "country": "Portugal",
+    "code": "PT",
+    "sentCampaigns": 5,
+    "example": "Europe trial - Portugal - 2026-09-28",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction"
+  },
+  {
+    "country": "Saudi Arabia",
+    "code": "SA",
+    "sentCampaigns": 1,
+    "example": "Saudi Arabia - property video leads - 27 August 2026",
+    "candidate": "Century 21",
+    "evidence": "Official Saudi market report establishes historical presence; largest status unverified.",
+    "source": "https://century21.sa/images/reports/1645603078.pdf"
+  },
+  {
+    "country": "Singapore",
+    "code": "SG",
+    "sentCampaigns": 2,
+    "example": "Singapore - property video leads - 26 August 2026",
+    "candidate": "PropNex",
+    "evidence": "Company describes itself as Singapore’s largest real estate agency.",
+    "source": "https://propnex.com/res/news-details/12481/37-propertylimbrothers-salespersons-including-co-founder-adrian-lim-join-propnex"
+  },
+  {
+    "country": "South Africa",
+    "code": "ZA",
+    "sentCampaigns": 1,
+    "example": "South Africa - listing busywork - August 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Company reports largest Southern African network; regional rather than exclusively national scope.",
+    "source": "https://www.remax.co.za/choose-remax-investor"
+  },
+  {
+    "country": "Spain",
+    "code": "ES",
+    "sentCampaigns": 5,
+    "example": "Europe trial - Spain - 2026-09-28",
+    "candidate": "Tecnocasa",
+    "evidence": "Official country operations verified; largest national ranking still unverified.",
+    "source": "https://www.tecnocasagroup.com/en/contacts"
+  },
+  {
+    "country": "Switzerland",
+    "code": "CH",
+    "sentCampaigns": 3,
+    "example": "Europe trial - Switzerland - 2026-09-28",
+    "candidate": "RE/MAX",
+    "evidence": "Official European network lists country operations; largest national status unverified.",
+    "source": "https://remax.eu/about-us/"
+  },
+  {
+    "country": "Türkiye",
+    "code": "TR",
+    "sentCampaigns": 4,
+    "example": "Europe trial - Türkiye - 2026-09-28",
+    "candidate": "RE/MAX",
+    "evidence": "Official European network lists country operations; largest national status unverified.",
+    "source": "https://remax.eu/about-us/"
+  },
+  {
+    "country": "United Arab Emirates",
+    "code": "AE",
+    "sentCampaigns": 2,
+    "example": "United Arab Emirates - property video leads - 26 August 2026",
+    "candidate": "Betterhomes",
+    "evidence": "Historical company brochure reports UAE leadership; current national ranking needs verification.",
+    "source": "https://www.bhomes.com/pdf/recruitment%20brochure%202020.pdf"
+  },
+  {
+    "country": "United Kingdom",
+    "code": "GB",
+    "sentCampaigns": 3,
+    "example": "Europe trial - United Kingdom - 2026-09-28",
+    "candidate": "Connells Group",
+    "evidence": "Company describes itself as largest UK high-street estate agency network.",
+    "source": "https://www.connellsgroup.co.uk/our-group/about-us/"
+  },
+  {
+    "country": "US",
+    "code": "US",
+    "sentCampaigns": 17,
+    "example": "US wealthy states Eastern personalized property demo - 2,692 verified leads - 2026-09-14",
+    "candidate": "Compass; Berkshire Hathaway HomeServices",
+    "evidence": "Both owner-confirmed customer workplaces; Compass cites RealTrends 2024 closed residential sales volume. Not a current all-metrics ranking.",
+    "source": "https://www.compass.com/"
+  },
+  {
+    "country": "Uruguay",
+    "code": "UY",
+    "sentCampaigns": 3,
+    "example": "Uruguay - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified.",
+    "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction"
+  },
+  {
+    "country": "Venezuela",
+    "code": "VE",
+    "sentCampaigns": 3,
+    "example": "Venezuela - crear cuenta - 20 agosto 2026",
+    "candidate": "RE/MAX",
+    "evidence": "Official global brochure lists Venezuelan operations; historical presence only, current ranking unverified.",
+    "source": "https://admin.remax.co.za/pdf/join-remax-pdf/more_reasons_brochure.pdf"
+  }
+]
