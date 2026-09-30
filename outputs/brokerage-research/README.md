@@ -1,3 +1,5 @@
+> Updated research: [44-country expanded catalog](EXPANDED-RESEARCH.md), with 42 brands and 216 country/brand entries. Review locally at http://localhost:3000/api/brokerage-research. The original shortlist below is retained for its ranking evidence.
+
 # Brokerage research and campaign coverage
 
 Checked 2026-09-29. UseSend read-only campaign API returned sent country launch campaigns for **44 countries**. Drafts, paused campaigns and general customer product updates are excluded from launch counts. No recipient data, API keys or email addresses are stored here.

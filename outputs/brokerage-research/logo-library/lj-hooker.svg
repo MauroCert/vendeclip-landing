@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 708.7 145.4">
+  <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st1 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st2 {
+        fill: #231f20;
+      }
+
+      .st3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="18.55" y1="-773.3" x2="18.55" y2="-884.9" gradientTransform="translate(0 -773.3) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fed141"/>
+      <stop offset=".5" stop-color="#fed141"/>
+      <stop offset="1" stop-color="#fdba12"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="55.65" y1="-773.3" x2="55.65" y2="-884.9" gradientTransform="translate(0 -773.3) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#faa13c"/>
+      <stop offset=".5" stop-color="#faa13c"/>
+      <stop offset="1" stop-color="#f37021"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="92.75" y1="-773.3" x2="92.75" y2="-884.9" gradientTransform="translate(0 -773.3) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#da291c"/>
+      <stop offset=".5" stop-color="#da291c"/>
+      <stop offset="1" stop-color="#ba2923"/>
+    </linearGradient>
+  </defs>
+  <g id="LJ_HOOKER_LOGO">
+    <g>
+      <path class="st2" d="M148.5,102.4V0h18.5v95h25.5v16.7h-34.8c-5.1,0-9.3-4.2-9.3-9.3,0,0,.1,0,.1,0ZM569.8,111.7h21.1l-31.4-49.1,28.5-32.4h-21.1l-30.2,34.4V0h-18.6v102.4c0,5.1,4.2,9.3,9.3,9.3h9.3v-23.1l10.6-12.1,22.5,35.2h0ZM426,73.9v-6.8c0-20.8-16.9-37.7-37.7-37.7s-37.7,16.9-37.7,37.7v6.8c0,20.8,16.9,37.7,37.7,37.7s37.7-16.9,37.7-37.7ZM407.4,66.5v8c0,12.3-8.6,22.4-19.2,22.4s-19.2-10-19.2-22.4v-8c0-12.3,8.6-22.4,19.2-22.4s19.2,10,19.2,22.4ZM509.3,73.9v-6.8c0-20.8-16.9-37.7-37.7-37.7s-37.7,16.9-37.7,37.7v6.8c0,20.8,16.9,37.7,37.7,37.7s37.7-16.9,37.7-37.7ZM490.7,66.8v9.2c0,11.5-8.6,20.8-19.2,20.8s-19.2-9.3-19.2-20.8v-9.2c0-11.5,8.6-22.7,19.2-22.7s19.2,11.2,19.2,22.7ZM341.7,111.7V.1h-18.6v48.4h-37.1V.1h-18.5v102.4c0,5.1,4.2,9.3,9.3,9.3h9.3v-48.4h37.1v48.4h18.6l-.1-.1h0ZM211.7,0v107.9c0,11.5-8.6,22.7-19.2,22.7v14.8c20.8,0,37.7-16.9,37.7-37.7V.1h-18.6l.1-.1ZM642.6,82.5l14.8,9.7c-6.4,11.6-18.8,19.4-33,19.4-20.8,0-37.7-16.9-37.7-37.7v-6.8c0-20.8,16.9-37.7,37.7-37.7s37.7,16.9,37.7,37.7v6.8h-56.9v2.1c0,11.5,8.6,20.8,19.2,20.8s15.7-6,18.2-14.3h0ZM606.5,59h35.7c-2.8-8.3-9.7-14.9-17.9-14.9s-15.1,6.6-17.9,14.9h.1ZM689.5,111.7v-44.9c0-11.5,8.6-22.7,19.2-22.7v-14.8c-20.8,0-37.7,16.9-37.7,37.7v44.6h18.6s-.1.1-.1.1Z"/>
+      <g>
+        <path class="st3" d="M0,0v102.3c0,5.2,4.2,9.3,9.3,9.3h27.8V0H0Z"/>
+        <rect class="st1" x="37.1" width="37.1" height="111.6"/>
+        <rect class="st0" x="74.2" width="37.1" height="111.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

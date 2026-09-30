@@ -1,0 +1,1648 @@
+{
+  "checkedAt": "2026-09-30",
+  "purpose": "Country brokerage research; not a customer list or endorsement.",
+  "brands": [
+    {
+      "id": "century21",
+      "name": "CENTURY 21",
+      "logo": "century21.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "sothebys",
+      "name": "Sotheby’s International Realty",
+      "logo": "sothebys.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "engel-volkers",
+      "name": "Engel & Völkers",
+      "logo": "engel-volkers.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "keller-williams",
+      "name": "Keller Williams",
+      "logo": "keller-williams.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "coldwell-banker",
+      "name": "Coldwell Banker",
+      "logo": "coldwell-banker.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "savills",
+      "name": "Savills",
+      "logo": "savills.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "citymax",
+      "name": "CityMax",
+      "logo": "citymax.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "remax",
+      "name": "RE/MAX",
+      "logo": "remax.svg",
+      "confirmedCustomerWorkplace": true
+    },
+    {
+      "id": "ray-white",
+      "name": "Ray White",
+      "logo": "ray-white.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "era",
+      "name": "ERA",
+      "logo": "era.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "edc",
+      "name": "EDC",
+      "logo": "edc.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "sherry-fitzgerald",
+      "name": "Sherry FitzGerald",
+      "logo": "sherry-fitzgerald.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "tecnocasa",
+      "name": "Tecnocasa",
+      "logo": "tecnocasa.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "mitsui",
+      "name": "Mitsui Fudosan Realty",
+      "logo": "mitsui.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "iqi",
+      "name": "IQI",
+      "logo": "iqi.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "hendriks",
+      "name": "Vivantus / Hendriks",
+      "logo": "hendriks.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "freedom",
+      "name": "Freedom",
+      "logo": "freedom.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "propnex",
+      "name": "PropNex",
+      "logo": "propnex.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "betterhomes",
+      "name": "Betterhomes",
+      "logo": "betterhomes.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "connells",
+      "name": "Connells Group",
+      "logo": "connells.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "compass",
+      "name": "Compass",
+      "logo": "compass.svg",
+      "confirmedCustomerWorkplace": true
+    },
+    {
+      "id": "berkshire-hathaway",
+      "name": "Berkshire Hathaway HomeServices",
+      "logo": "berkshire-hathaway.svg",
+      "confirmedCustomerWorkplace": true
+    },
+    {
+      "id": "safti",
+      "name": "SAFTI",
+      "logo": "safti.svg",
+      "confirmedCustomerWorkplace": true
+    },
+    {
+      "id": "iad",
+      "name": "iad",
+      "logo": "iad.jpg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "toribio-achaval",
+      "name": "Toribio Achával",
+      "logo": "toribio-achaval.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "royal-lepage",
+      "name": "Royal LePage",
+      "logo": "royal-lepage.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "lj-hooker",
+      "name": "LJ Hooker",
+      "logo": "lj-hooker.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "danbolig",
+      "name": "danbolig",
+      "logo": "danbolig.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "tokyu-livable",
+      "name": "Tokyu Livable",
+      "logo": "tokyu-livable.jpg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "era-singapore",
+      "name": "ERA Singapore",
+      "logo": "era-singapore.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "ricardo-gorga",
+      "name": "Ricardo Gorga",
+      "logo": "ricardo-gorga.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "dng",
+      "name": "DNG",
+      "logo": "dng.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "zome",
+      "name": "Zome",
+      "logo": "zome.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "urbec",
+      "name": "URBEC",
+      "logo": "urbec.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "rent-a-house",
+      "name": "Rent-A-House",
+      "logo": "rent-a-house.webp",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "hartamas",
+      "name": "Hartamas",
+      "logo": "hartamas.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "swiss-life-immopulse",
+      "name": "Swiss Life Immopulse",
+      "logo": "swiss-life-immopulse.png",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "pam-golding",
+      "name": "Pam Golding Properties",
+      "logo": "pam-golding.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "lopes",
+      "name": "Lopes",
+      "logo": "lopes.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "quintoandar",
+      "name": "QuintoAndar",
+      "logo": "quintoandar.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "orpi",
+      "name": "Orpi",
+      "logo": "orpi.svg",
+      "confirmedCustomerWorkplace": false
+    },
+    {
+      "id": "foxtons",
+      "name": "Foxtons",
+      "logo": "foxtons.svg",
+      "confirmedCustomerWorkplace": false
+    }
+  ],
+  "countries": [
+    {
+      "country": "Argentina",
+      "code": "AR",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        },
+        {
+          "id": "toribio-achaval",
+          "source": "https://www.toribioachaval.com.ar/",
+          "note": "Official branch list includes Argentina and Colonia, Uruguay."
+        }
+      ]
+    },
+    {
+      "country": "Australia",
+      "code": "AU",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "ray-white",
+          "source": "https://www.raywhite.com/about-us",
+          "note": "Company describes itself as Australasia’s largest real estate group; regional scope."
+        },
+        {
+          "id": "lj-hooker",
+          "source": "https://www.ljhooker.com.au/about-us",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "code": "BE",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "era",
+          "source": "https://www.era.be/nl/era-invest/blog/belgische-marktleider-vastgoed-lanceert-era-invest-zoals-private-banking-maar-voor",
+          "note": "Company reports Belgian residential market leadership, 140+ offices."
+        }
+      ]
+    },
+    {
+      "country": "Belize",
+      "code": "BZ",
+      "sentCampaigns": 2,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/wp-content/uploads/2012/03/REMAX_Top50_Global_Team_RES_December_2024_SMALL.pdf",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "code": "BO",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Brazil",
+      "code": "BR",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "remax",
+          "source": "https://agro.remax.com.br/quem-somos/",
+          "note": "Company describes itself as largest Brazilian network, 590 units; company claim."
+        },
+        {
+          "id": "lopes",
+          "source": "https://www.lopes.com.br/paginas/quem-somos",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "quintoandar",
+          "source": "https://www.quintoandar.com.br/newsroom/",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Canada",
+      "code": "CA",
+      "sentCampaigns": 5,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-builds-momentum-in-q1-with-strategic-growth-at-home-and-around-the-globe/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://franchise.remax.ca/wp-content/uploads/sites/14/2024/03/CAN-Brand-Pillar-One-Sheet-Sep-2023-1.pdf",
+          "note": "Historical 2023 company material claims highest total transaction sides; current ranking unverified."
+        },
+        {
+          "id": "royal-lepage",
+          "source": "https://www.royallepage.ca/en/",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Chile",
+      "code": "CL",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-enters-its-120th-year-with-strategic-u-s-growth-and-global-expansion/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-individual-commercial",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Colombia",
+      "code": "CO",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "remax",
+          "source": "https://www.remax.co/",
+          "note": "Official national website establishes presence; largest status unverified."
+        }
+      ]
+    },
+    {
+      "country": "Costa Rica",
+      "code": "CR",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "citymax",
+          "source": "https://www.citymax-la.com/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/wp-content/uploads/2012/03/REMAX_Top50_Global_Team_RES_December_2024_SMALL.pdf",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "code": "DK",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "edc",
+          "source": "https://www.edc.dk/om-edc/bag-om-edc/",
+          "note": "Company reports Denmark’s largest agency chain, over 230 offices."
+        },
+        {
+          "id": "danbolig",
+          "source": "https://danbolig.dk/om-danbolig/",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "República Dominicana",
+      "code": "DO",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "citymax",
+          "source": "https://www.citymax-la.com/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "code": "EC",
+      "sentCampaigns": 2,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-individual-commercial",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        },
+        {
+          "id": "urbec",
+          "source": "https://urbececuador.com/",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "code": "SV",
+      "sentCampaigns": 2,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "citymax",
+          "source": "https://www.citymax-la.com/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es",
+          "note": "Official regional directory lists country operations; largest national status unverified."
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "code": "FR",
+      "sentCampaigns": 5,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "safti",
+          "source": "https://www.safti.fr/",
+          "note": "Owner-confirmed workplace; France market."
+        },
+        {
+          "id": "iad",
+          "source": "https://www.iadgroup.com/",
+          "note": "French network; not a confirmed customer workplace."
+        },
+        {
+          "id": "orpi",
+          "source": "https://www.orpi.com/le-reseau-orpi/nous-connaitre",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "code": "DE",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        }
+      ]
+    },
+    {
+      "country": "Greece",
+      "code": "GR",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "remax",
+          "source": "https://www.remax.gr/media/news/800-en.pdf",
+          "note": "Company reports largest Greek network, 88 offices and 1,200+ advisors."
+        }
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "code": "GT",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "citymax",
+          "source": "https://www.citymax-la.com/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es",
+          "note": "Official regional directory lists country operations; largest national status unverified."
+        }
+      ]
+    },
+    {
+      "country": "Honduras",
+      "code": "HN",
+      "sentCampaigns": 2,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "remax",
+          "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es",
+          "note": "Official regional directory lists country operations; largest national status unverified."
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "code": "ID",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "ray-white",
+          "source": "https://buleleng.raywhite.co.id/",
+          "note": "Indonesian office describes network as largest in Indonesia; not independently ranked."
+        }
+      ]
+    },
+    {
+      "country": "Ireland",
+      "code": "IE",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "sherry-fitzgerald",
+          "source": "https://www.sherryfitz.ie/specialist-services/buying-internationally",
+          "note": "Company describes itself as Ireland’s largest estate agency."
+        },
+        {
+          "id": "dng",
+          "source": "https://www.dng.ie/about-dng-estate-agents",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "code": "IT",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "tecnocasa",
+          "source": "https://www.tecnocasagroup.com/en/contacts",
+          "note": "Official country operations verified; largest national ranking still unverified."
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "code": "JP",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "mitsui",
+          "source": "https://global.mf-realty.jp/en/",
+          "note": "Company reports 40 consecutive years leading brokered purchase/sale transaction counts through 2025."
+        },
+        {
+          "id": "tokyu-livable",
+          "source": "https://www.livable.co.jp/solution/english/",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "code": "MY",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/countries/asia-pacific.aspx",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "iqi",
+          "source": "https://www.iqiglobal.com/",
+          "note": "Company describes itself as Malaysia’s largest PropTech agency; ranking basis not independently verified."
+        },
+        {
+          "id": "hartamas",
+          "source": "https://hartamas.com/",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Mexico",
+      "code": "MX",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "citymax",
+          "source": "https://www.citymax-la.com/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-individual-commercial",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "code": "NL",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "hendriks",
+          "source": "https://hendriks.nl/over-ons",
+          "note": "Hendriks identifies parent Vivantus as the largest full-service NVM group; group-level company claim."
+        }
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "code": "NI",
+      "sentCampaigns": 2,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "remax",
+          "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es",
+          "note": "Official regional directory lists country operations; largest national status unverified."
+        }
+      ]
+    },
+    {
+      "country": "Panamá",
+      "code": "PA",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://www.remax-centralamerica.com/search-offices-or-agents?lang=es",
+          "note": "Official regional directory lists country operations; largest national status unverified."
+        }
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "code": "PY",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "code": "PE",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Philippines",
+      "code": "PH",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        }
+      ]
+    },
+    {
+      "country": "Poland",
+      "code": "PL",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "freedom",
+          "source": "https://freedom.pl/dla-mediow/",
+          "note": "Company describes itself as largest Polish network following acquisition; nearly 100 branches."
+        }
+      ]
+    },
+    {
+      "country": "Portugal",
+      "code": "PT",
+      "sentCampaigns": 5,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-builds-momentum-in-q1-with-strategic-growth-at-home-and-around-the-globe/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        },
+        {
+          "id": "zome",
+          "source": "https://www.zome.pt/pt/conhecer-a-zome/missao-visao-e-valores",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "code": "SA",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        }
+      ]
+    },
+    {
+      "country": "Singapore",
+      "code": "SG",
+      "sentCampaigns": 2,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "propnex",
+          "source": "https://propnex.com/res/news-details/12481/37-propertylimbrothers-salespersons-including-co-founder-adrian-lim-join-propnex",
+          "note": "Company describes itself as Singapore’s largest real estate agency."
+        },
+        {
+          "id": "era-singapore",
+          "source": "https://www.era.com.sg/about-us",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "South Africa",
+      "code": "ZA",
+      "sentCampaigns": 1,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://www.remax.co.za/choose-remax-investor",
+          "note": "Company reports largest Southern African network; regional rather than exclusively national scope."
+        },
+        {
+          "id": "pam-golding",
+          "source": "https://www.pamgolding.co.za/about-us",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "code": "ES",
+      "sentCampaigns": 5,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "tecnocasa",
+          "source": "https://www.tecnocasagroup.com/en/contacts",
+          "note": "Official country operations verified; largest national ranking still unverified."
+        }
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "code": "CH",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://remax.eu/about-us/",
+          "note": "Official European network lists country operations; largest national status unverified."
+        },
+        {
+          "id": "swiss-life-immopulse",
+          "source": "https://www.swisslife.ch/en/individuals/real-estate-mortgages/real-estate/about.html",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Türkiye",
+      "code": "TR",
+      "sentCampaigns": 4,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-expands-to-5-new-countries-adds-27-offices-worldwide-in-q2-2025/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://remax.eu/about-us/",
+          "note": "Official European network lists country operations; largest national status unverified."
+        }
+      ]
+    },
+    {
+      "country": "United Arab Emirates",
+      "code": "AE",
+      "sentCampaigns": 2,
+      "brands": [
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "betterhomes",
+          "source": "https://www.bhomes.com/pdf/recruitment%20brochure%202020.pdf",
+          "note": "Historical company brochure reports UAE leadership; current national ranking needs verification."
+        }
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GB",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "savills",
+          "source": "https://www.savills.com/sectors/office-and-business-space.aspx",
+          "note": "Official commercial-service coverage; not necessarily residential brokerage."
+        },
+        {
+          "id": "connells",
+          "source": "https://www.connellsgroup.co.uk/our-group/about-us/",
+          "note": "Company describes itself as largest UK high-street estate agency network."
+        },
+        {
+          "id": "foxtons",
+          "source": "https://www.foxtons.co.uk/foxtons/about",
+          "note": "London and Surrey focus; not a UK-wide network claim."
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "code": "US",
+      "sentCampaigns": 17,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "coldwell-banker",
+          "source": "https://blog.coldwellbanker.com/coldwell-banker-enters-its-120th-year-with-strategic-u-s-growth-and-global-expansion/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "compass",
+          "source": "https://www.compass.com/",
+          "note": "Owner-confirmed workplace; US market."
+        },
+        {
+          "id": "berkshire-hathaway",
+          "source": "https://www.bhhs.com/",
+          "note": "Owner-confirmed workplace; US market."
+        }
+      ]
+    },
+    {
+      "country": "Uruguay",
+      "code": "UY",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "sothebys",
+          "source": "https://www.sothebysrealty.com/eng/sitemap/offices",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "engel-volkers",
+          "source": "https://www.engelvoelkers.com/de/en/shops",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "keller-williams",
+          "source": "https://answers.kw.com/hc/en-us/articles/4405451586579-What-international-countries-regions-can-I-search-for-listings-in",
+          "note": "Official listing coverage; source last updated 2023, needs fresh office-level check."
+        },
+        {
+          "id": "remax",
+          "source": "https://news.remax.com/top-100-global-team-residential-commercial-transaction",
+          "note": "Country presence appears in official global awards/rankings. Those rank RE/MAX agents, not competing national brokerages; largest status remains unverified."
+        },
+        {
+          "id": "toribio-achaval",
+          "source": "https://www.toribioachaval.com.ar/",
+          "note": "Official branch list includes Argentina and Colonia, Uruguay."
+        },
+        {
+          "id": "ricardo-gorga",
+          "source": "https://www.ricardogorga.com.uy/",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    },
+    {
+      "country": "Venezuela",
+      "code": "VE",
+      "sentCampaigns": 3,
+      "brands": [
+        {
+          "id": "century21",
+          "source": "https://join.century21.com/our-story/",
+          "note": "Official country presence; not a national ranking."
+        },
+        {
+          "id": "remax",
+          "source": "https://admin.remax.co.za/pdf/join-remax-pdf/more_reasons_brochure.pdf",
+          "note": "Official global brochure lists Venezuelan operations; historical presence only, current ranking unverified."
+        },
+        {
+          "id": "rent-a-house",
+          "source": "https://rentahouse.com.ve/",
+          "note": "Official country presence; not a national ranking."
+        }
+      ]
+    }
+  ]
+}
