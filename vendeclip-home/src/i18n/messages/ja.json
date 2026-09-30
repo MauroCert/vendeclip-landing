@@ -578,9 +578,9 @@
   "Less time making content.": "コンテンツを作る時間を短縮します。",
   "For independent agents building their name. For teams launching the next listing. For brokerages that want every property to look its best.": "独立した代理店が自分の名前を築きます。 次のリストを立ち上げるチームのために。 すべての財産が最善を尽くしたいブローカーのために。",
   "Find your plan": "プランを探す",
-  "Independent agents": "独立した代理店",
+  "Independent agents": "独立した不動産担当者",
   "Give every listing a polished presence, without adding an editor to your team.": "チームにエディタを追加することなく、洗練されたプレゼンスをすべてリストできます。",
-  "Growing teams": "チームを成長させる",
+  "Growing teams": "成長するチーム",
   "Keep your content moving and your brand consistent across agents and listings.": "コンテンツの移動とブランドをエージェントやリスト間で一貫して保ちます。",
   "Established brokerages": "証券会社設立",
   "Bring your marketing, property pages, and inquiries into a shared workflow.": "マーケティング、プロパティページ、および共有ワークフローへのお問い合わせを持参してください。",
@@ -1310,5 +1310,13 @@
   "From the first photo to the final frame, I want my listings in {0} to feel considered and unmistakably mine.": "最初の写真から最後のカットまで、{0}の物件に丁寧さと自分らしさが感じられるようにしたいです。",
   "When I share a home in {0}, I want buyers to notice the light, the details, and the spaces they could make their own.": "{0}の家を紹介するときは、光や細部、そして自分の居場所になるかもしれない空間に気づいてもらいたいです。",
   "For my listings in {0}, I want one clear story that works across social media and the property page.": "{0}の物件には、SNSでも物件ページでも伝わる、わかりやすい一つの物語が必要だと思っています。",
-  "A home in {0} deserves more than a slideshow. I want to give its photos movement, atmosphere, and a familiar voice.": "{0}の家を、ただのスライドショーで終わらせたくありません。写真に動きと空気感、親しみのある声を添えたいです。"
+  "A home in {0} deserves more than a slideshow. I want to give its photos movement, atmosphere, and a familiar voice.": "{0}の家を、ただのスライドショーで終わらせたくありません。写真に動きと空気感、親しみのある声を添えたいです。",
+  "FOR PROPERTY PROFESSIONALS": "不動産のプロのために",
+  "Your market. Your way of working.": "あなたの地域に、あなたらしい仕事の進め方を。",
+  "From a single listing to a growing portfolio, bring your property stories together.": "一つの物件から増え続ける物件まで、それぞれの物語をまとめましょう。",
+  "A workflow for your next listing.": "次の物件紹介に役立つワークフロー。",
+  "Turn property photos into a video with your voice, brand, and contact details.": "物件写真に自分の声、ブランド、連絡先を添えて動画にします。",
+  "Give every listing a consistent style, from the first clip to the final export.": "最初のクリップから最終書き出しまで、物件ごとに統一感のあるスタイルを。",
+  "Property marketing": "不動産マーケティング",
+  "Bring video and property details together on a shareable listing page.": "動画と物件情報を、共有できる物件ページにまとめます。"
 }

@@ -1,13 +1,7 @@
-# Localized fictional examples
+# Localized broker use cases
 
-The homepage and pricing page automatically show an illustrative story matching the page language. These are not actual customers or verified testimonials. Each card visibly identifies the person, quote, and AI portrait as fictional. No ratings, customer counts, business results, or review structured data are fabricated.
+The homepage and pricing page present three product workflows: independent agents, growing teams, and property marketing. The section is product marketing, not customer reviews. It includes no quotes, attributed experiences, customer names, star ratings, or review structured data. Existing generated portraits are decorative imagery with empty alt text; they are not identified as customers.
 
-Locale mapping: English (US) → US, English (UK) → UK, Spanish → Spain, Portuguese → Brazil, Italian → Italy, French → France, German → Germany, Dutch → Netherlands, Polish → Poland, Turkish → Türkiye, Japanese → Japan. Every supported localization has a completed portrait. The broader 97-country persona catalog remains prepared but inactive.
+The portrait follows the UI locale: en → US, en-gb → GB, es → ES, pt → BR, it → IT, fr → FR, de → DE, nl → NL, pl → PL, tr → TR, ja → JP. Pricing country remains independent. All workflow copy is translated into the 11 supported languages.
 
-There is no country selector in the story section. Billing country, query parameters, and saved pricing preferences do not affect its portrait. Pricing retains its independent country selector and regional amounts. Country names, disclosure, image alt text, headings, and sample quote themes are localized into all 11 supported UI languages.
-
-The portrait direction was revised after user feedback: ordinary smartphone-style broker profile photos, practical clothes, recognizable everyday offices or property visits, natural texture and lighting, varied ages and compositions. Earlier polished portraits are not used.
-
-The source prompts and built-in image-generation output paths are retained in `portrait-generation.json`. The web-ready assets are in `public/media/people/`. `node scripts/prepare-portraits.cjs` encodes the selected outputs as efficient 720px WebP files; it makes no generative changes to the portraits.
-
-Images are loaded lazily, and transition effects honor reduced motion and the site's pause control.
+The image-generation prompts remain in portrait-generation.json. Optimized image files are in public/media/people/. Reduced motion and the global pause control remain supported.
