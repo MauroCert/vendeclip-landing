@@ -8,6 +8,7 @@ import localFont from "next/font/local";
 import "@/app/globals.css";
 import { PageMotion } from "@/components/page-motion";
 import "@/app/public-pages.css";
+import "@/app/brand-theme.css";
 const montreal = localFont({
   src: [
     { path: "../fonts/montreal-400.woff2", weight: "400", style: "normal" },
@@ -28,15 +29,10 @@ const editorial = localFont({
   display: "swap",
 });
 export const viewport: Viewport = {
-  themeColor: "#ffffff",
+  themeColor: "#faf9f5",
   colorScheme: "light",
 };
-export const metadata: Metadata = {
-  title: "VendeClip — Great properties deserve great videos",
-  description:
-    "Turn property photos into cinematic AI videos, branded reels, and complete listing campaigns. Real estate marketing for agents, teams, and brokerages.",
-  robots: { index: false, follow: false },
-};
+export const metadata: Metadata = {};
 export default async function SiteDocument({
   children, locale,
 }: Readonly<{ children: React.ReactNode; locale: string }>) {
@@ -49,11 +45,14 @@ export default async function SiteDocument({
   }).filter(([, value]) => value !== undefined))};
   return localize((
     <html
+      // Browser extensions can add root attributes before React hydrates.
+      // Limit suppression to this element; descendants retain hydration checks.
+      suppressHydrationWarning
       lang={locale === "en-gb" ? "en-GB" : locale}
       className={`${montreal.variable} ${editorial.variable}`}
-      style={{ backgroundColor: "#ffffff" }}
+      style={{ backgroundColor: "var(--background)" }}
     >
-      <body style={{ backgroundColor: "#ffffff" }}><NextIntlClientProvider locale={locale} messages={clientMessages}>{children}<PageMotion /></NextIntlClientProvider></body>
+      <body style={{ backgroundColor: "var(--background)" }}><NextIntlClientProvider locale={locale} messages={clientMessages}>{children}<PageMotion /></NextIntlClientProvider></body>
     </html>
   ));
 }

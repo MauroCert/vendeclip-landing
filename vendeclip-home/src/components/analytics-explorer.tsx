@@ -104,7 +104,7 @@ function ActivityChart({ current, previous, metric }: { current: AnalyticsDay[];
       <div className={styles.chartLegend}><span><i />{rangeLabel(current)}</span><label><input type="checkbox" checked={comparison} onChange={(event) => setComparison(event.target.checked)} /><i />{rangeLabel(previous)}<span className="sr-only"> Show previous period</span></label></div>
       <div className={styles.chartScroller}>
         <svg className={styles.plot} viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby={`${id}-title ${id}-description`} onPointerMove={inspect} onPointerDown={inspect}>
-          <title id={`${id}-title`}>{metrics[metric]} for {rangeLabel(current)}</title>
+          <title id={`${id}-title`}>{`${localize.text(metrics[metric])} — ${rangeLabel(current)}`}</title>
           <desc id={`${id}-description`}>Sample daily event counts. Solid line: selected period. {comparison ? "Dashed line: previous period, aligned by day within the period." : "Previous period is hidden."} Use the day slider or data table below for exact values.</desc>
           <defs><linearGradient id={`${id}-area`} x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stopColor="#2b625e" stopOpacity=".09" /><stop offset="100%" stopColor="#2b625e" stopOpacity="0" /></linearGradient></defs>
           {scale.ticks.map((tick) => <g key={tick}><line x1={LEFT} x2={W - RIGHT} y1={y(tick)} y2={y(tick)} stroke="#e7e7e2" strokeDasharray={tick ? "3 5" : undefined} /><text x={LEFT - 13} y={y(tick) + 5} textAnchor="end" className={styles.axisLabel}>{number(tick)}</text></g>)}

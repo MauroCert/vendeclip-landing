@@ -82,7 +82,8 @@ export function Logo() {
         src="/brand/vendeclip-logo.png"
         alt="VendeClip"
         width={1200}
-        height={300}
+        height={321}
+        sizes="180px"
         className="brand-logo"
         priority
       />

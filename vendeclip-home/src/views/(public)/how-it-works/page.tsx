@@ -6,6 +6,7 @@ import { ListingToVideo } from "@/components/listing-to-video";
 import { Icon, type IconName } from "@/components/icon";
 export const metadata = {
   title: "From a listing link to a property video | VendeClip",
+  description: "Your listing already has the raw material. Bring it into VendeClip and take it all the way to a complete video and property campaign.",
 };
 const steps: [string, string, IconName, string][] = [
   [

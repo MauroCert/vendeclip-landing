@@ -94,7 +94,8 @@ export function HomeSections() {
           </h2>
           <p>From the photos on your phone to the feed of your next buyer.</p>
         </div>
-        <div className="steps">
+        <div className="steps" data-home-motion>
+          <div className="workflow-track" aria-hidden="true"><i /><i /><i /></div>
           <article>
             <div className="step-visual import-visual">
               <div className="import-url">
@@ -257,7 +258,7 @@ export function HomeSections() {
           ))}
         </div>
         <p className="creative-preview-note">Illustrative previews of your creative toolkit.</p>
-        <div className="export-strip">
+        <div className="export-strip" data-home-motion>
           <div>
             <Icon name="download" />
             <p>
@@ -268,12 +269,15 @@ export function HomeSections() {
               </span>
             </p>
           </div>
+          <div className="export-formats" aria-hidden="true">
+            <i><span>9:16</span></i><i><span>1:1</span></i><i><span>16:9</span></i>
+          </div>
           <Link href="/product" className="text-link">
             Explore the platform <Icon name="arrow" />
           </Link>
         </div>
       </section>
-      <section className="broker-section container">
+      <section className="broker-section container" data-home-motion>
         <div>
           <span className="eyebrow">BUILT AROUND THE WAY YOU WORK</span>
           <h2>
@@ -291,6 +295,7 @@ export function HomeSections() {
           </Link>
         </div>
         <div className="broker-list">
+          <div className="broker-connection" aria-hidden="true"><span>V</span><i /><i /><i /></div>
           <article>
             <span className="feature-icon">
               <Icon name="user" />
@@ -355,7 +360,8 @@ export function HomeSections() {
           ))}
         </div>
       </section>
-      <section className="final-cta container">
+      <section className="final-cta container" data-home-motion>
+        <div className="home-border-beam" aria-hidden="true" />
         <div className="cta-image">
           <Image
             src="/media/costa-villa.webp"
@@ -363,8 +369,10 @@ export function HomeSections() {
             sizes="(max-width: 760px) 100vw, 40vw"
             alt="Coastal villa overlooking a pool and the ocean"
           />
+          <div className="cta-film" aria-hidden="true"><span><Icon name="play" /></span><i /><i /><i /><i /><i /><i /><i /><i /></div>
         </div>
         <div className="cta-copy">
+          <div className="cta-orbits" aria-hidden="true"><i /><i /><i /><span><Icon name="sparkles" /></span></div>
           <span className="eyebrow">YOUR NEXT GREAT LISTING STARTS HERE</span>
           <h2>
             You bring the property.

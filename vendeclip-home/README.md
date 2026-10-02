@@ -13,7 +13,7 @@ Open http://localhost:3000. Use `npm run build` and `npm start` to check a produ
 
 ## Language and pricing
 
-Unprefixed URLs redirect using a saved manual language preference, then the browser's Accept-Language list, then English. Explicit locale paths remain unchanged. For example, `/pricing` redirects to `/es/pricing` for a Spanish browser. Regional tags such as es-AR and pt-BR map to their supported language; en-GB has its own localization.
+Unprefixed URLs redirect using a saved manual language preference, then the detected country's supported default language, then the browser's Accept-Language list, then English. Explicit locale paths remain unchanged. For example, a first-time visitor detected in Italy is redirected from `/` to `/it`, even with an English browser. Without supported country detection, `/pricing` redirects to `/es/pricing` for a Spanish browser. Regional tags such as es-AR and pt-BR map to their supported language; en-GB has its own localization.
 
 Pricing reads Vercel's `x-vercel-ip-country` header on the server. No billing-country selector or stored country override is used. With no country header, pricing defaults to USD, matching the billing resolver. For a local regional preview, run `DEV_PRICING_COUNTRY=FR npm run dev`; this override is ignored in production. Final checkout determines billing country and taxes.
 
@@ -33,7 +33,7 @@ Signup/login remain design previews. Metadata remains noindex until production l
 
 ### Country-aware language and brokerages
 
-Vercel's `x-vercel-ip-country` header selects relevant confirmed brokerage brands and billing currency on each request. Language priority is explicit URL, saved `vendeclip-language` preference, supported browser language, country fallback, then English. Country does not override an explicit language choice. Multilingual countries without an unambiguous default fall back to browser preference or English.
+Vercel's `x-vercel-ip-country` header selects relevant confirmed brokerage brands and billing currency on each request. Language priority is explicit URL, saved `vendeclip-language` preference, supported country default, browser language fallback, then English. Country does not override an explicit language choice. Multilingual countries without an unambiguous default fall back to browser preference or English.
 
 Confirmed brand relevance: Compass (US); Berkshire Hathaway HomeServices (US, CA, MX, ES, PT, DE); SAFTI (FR); RE/MAX (general international fallback). Missing country shows the complete confirmed brand set. These are workplace affiliations, not claims of corporate partnerships or customer counts in specific countries.
 

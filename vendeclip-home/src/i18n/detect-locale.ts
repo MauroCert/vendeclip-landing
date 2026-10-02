@@ -1,8 +1,10 @@
 import { isLocale, type Locale } from './config';
 
-/** Match supported browser languages in quality order, including regional variants. */
+/** Saved choice first, then detected market, browser languages, and English. */
 export function detectLocale(acceptLanguage: string | null, preference?: string, country?: string): Locale {
   if (preference && isLocale(preference)) return preference;
+  const countryLocale = countryLocales[country?.trim().toUpperCase() ?? ''];
+  if (countryLocale) return countryLocale;
   const languages = (acceptLanguage ?? '').split(',').map((entry, index) => {
     const [tag, ...parameters] = entry.trim().toLowerCase().split(';');
     const quality = parameters.find(parameter => parameter.trim().startsWith('q='));
@@ -15,10 +17,10 @@ export function detectLocale(acceptLanguage: string | null, preference?: string,
     const base = tag.split('-')[0];
     if (isLocale(base)) return base;
   }
-  return countryLocales[country ?? ''] ?? 'en';
+  return 'en';
 }
 
-// Used only when neither saved preference nor browser languages are supported.
+// Countries with one supported default language; other markets use browser preferences.
 const countryLocales: Record<string, Locale> = {
   US: 'en', GB: 'en-gb', IE: 'en-gb', AU: 'en-gb', NZ: 'en-gb',
   AR: 'es', BO: 'es', CL: 'es', CO: 'es', CR: 'es', DO: 'es', EC: 'es',

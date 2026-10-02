@@ -520,23 +520,24 @@ export function PricingCards({ currency = "USD" }: { currency?: BillingCurrency 
   ];
   return localize((
     <>
-      <div
-        className="billing-switch"
-        role="group"
-        aria-label="Billing interval"
-      >
-        <button aria-pressed={!yearly} onClick={() => setYearly(false)}>
-          Monthly
-        </button>
-        <button aria-pressed={yearly} onClick={() => setYearly(true)}>
-          Yearly
-          <span className="annual-savings-badge">
-            <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-              <path d="m12 3 2.4 6.6L21 12l-6.6 2.4L12 21l-2.4-6.6L3 12l6.6-2.4L12 3Z" />
-            </svg>
-            <span>Save about 20%</span>
-          </span>
-        </button>
+      <div className="billing-selector">
+        <div
+          className="billing-switch"
+          role="group"
+          aria-label="Billing interval"
+          data-yearly={yearly}
+        >
+          <button type="button" aria-pressed={!yearly} onClick={() => setYearly(false)}>
+            Monthly
+          </button>
+          <button type="button" aria-pressed={yearly} aria-describedby="annual-savings" onClick={() => setYearly(true)}>
+            Yearly
+          </button>
+        </div>
+        <span className="annual-savings-badge" id="annual-savings">
+          <Icon name="sparkles" />
+          <span>Save about 20%</span>
+        </span>
       </div>
       <div className="pricing-grid">
         {plans.map((plan, index) => (

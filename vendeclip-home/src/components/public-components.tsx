@@ -26,7 +26,8 @@ export function PageHero({
 }) {
   const localize = useLocalizer();
   return localize((
-    <section
+    <section className="page-hero-shell">
+      <div
       className={`page-hero container ${children ? "page-hero-split" : "page-hero-centered"}`}
     >
       <div className="page-hero-copy">
@@ -44,6 +45,7 @@ export function PageHero({
         </span>
       </div>
       {children && <div className="page-hero-visual">{children}</div>}
+      </div>
     </section>
   ));
 }

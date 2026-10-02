@@ -5,7 +5,7 @@ import { generateMetadata as sourceMetadata } from "@/views/(public)/resources/[
 export async function generateMetadata(props: {params: Promise<{locale?: string; article: string}>}) {
  const params = await props.params;
  setRequestLocale(params.locale ?? 'en');
- return localizedMetadata(await sourceMetadata(props));
+ return localizedMetadata(await sourceMetadata(props), `/resources/${params.article}`);
 }
 export const dynamicParams = false;
 export { generateStaticParams } from "@/views/(public)/resources/[article]/page";

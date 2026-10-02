@@ -6,8 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState, type FormEvent } from "react";
 import { Icon, Logo } from "./icon";
-type AuthMode = "sign-in" | "sign-up" | "forgot-password";
-export function AuthPreview({ mode }: { mode: AuthMode }) {
+export type AuthMode = "sign-in" | "sign-up" | "forgot-password";
+export function AuthPreview({ mode, embedded = false }: { mode: AuthMode; embedded?: boolean }) {
+  const Content = embedded ? "div" : "main";
+  const Heading = embedded ? "h2" : "h1";
   const localize = useLocalizer();
   const signup = mode === "sign-up";
   const reset = mode === "forgot-password";
@@ -25,15 +27,14 @@ export function AuthPreview({ mode }: { mode: AuthMode }) {
     setSubmitted(true);
   }
   return localize((
-    <div className="auth-page">
+    <div className={`auth-page${embedded ? " auth-embedded" : ""}`}>
       <header className="auth-header container">
-        <LanguageSwitcher compact />
         <Logo />
-        <Link href="/" className="text-link">
+        {!embedded && <Link href="/" className="text-link">
           <Icon name="arrow" className="back-arrow" /> Back to the website
-        </Link>
+        </Link>}
       </header>
-      <main id="main" className="auth-main container">
+      <Content id={embedded ? undefined : "main"} className="auth-main container">
         <section className="auth-form-column">
           <div className="auth-form-wrap">
             <span className="eyebrow">
@@ -43,7 +44,7 @@ export function AuthPreview({ mode }: { mode: AuthMode }) {
                   ? "MAKE YOUR NEXT MOVE"
                   : "YOUR NEXT STORY IS WAITING"}
             </span>
-            <h1>{title}</h1>
+            <Heading className="auth-title">{title}</Heading>
             <p className="auth-intro">
               {reset
                 ? "Enter your email to review the password-reset flow."
@@ -255,15 +256,16 @@ export function AuthPreview({ mode }: { mode: AuthMode }) {
             </span>
           </div>
         </aside>
-      </main>
-      <footer className="auth-footer container">
+      </Content>
+      {!embedded && <footer className="auth-footer container">
         <span>© {new Date().getFullYear()} VendeClip</span>
         <div>
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
           <a href="https://aprender.vendeclip.com">Help center</a>
         </div>
-      </footer>
+      <LanguageSwitcher compact />
+      </footer>}
     </div>
   ));
 }

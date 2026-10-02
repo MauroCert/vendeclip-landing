@@ -10,6 +10,7 @@ import { PageHero, PageFAQs, PageCTA } from "@/components/public-components";
 import { PricingCards } from "@/components/public-interactions";
 export const metadata = {
   title: "Pricing for agents, teams, and brokerages | VendeClip",
+  description: "Try your first videos for free. Choose more room to create when your property portfolio—and your ambition—grows.",
 };
 export default async function PricingPage() {
   const [localize, requestHeaders] = await Promise.all([getLocalizer(), headers()]);
@@ -37,36 +38,33 @@ export default async function PricingPage() {
           Explore custom plans <Icon name="arrow" />
         </a>
       </section>
-      <section className="page-section container">
-        <div className="page-section-heading">
-          <span className="eyebrow">A CLEAR STARTING POINT</span>
-          <h2>One workflow. From photos to publish.</h2>
+      <section className="pricing-workflow container" aria-labelledby="pricing-workflow-title">
+        <div className="pricing-workflow-heading">
+          <div>
+            <span className="eyebrow">A CLEAR STARTING POINT</span>
+            <h2 id="pricing-workflow-title">One workflow. From photos to publish.</h2>
+          </div>
+          <Link className="text-link" href="/product">
+            Explore every feature <Icon name="arrow" />
+          </Link>
         </div>
-        <div className="benefit-grid">
+        <ol className="pricing-workflow-steps">
           {[
-            [
-              "Create the story",
-              "Bring in your listing, make clips, and choose the sound and style.",
-            ],
-            [
-              "Make it yours",
-              "Add the brand, words, and contact details that make the video yours.",
-            ],
-            [
-              "Review the result",
-              "See the final video before sharing it with your next buyer.",
-            ],
-          ].map(([title, copy]) => (
-            <article key={title}>
-              <Icon name="check" />
+            ["Create the story", "Bring in your listing, make clips, and choose the sound and style."],
+            ["Make it yours", "Add the brand, words, and contact details that make the video yours."],
+            ["Review the result", "See the final video before sharing it with your next buyer."],
+          ].map(([title, copy], index) => (
+            <li key={title}>
+              <div className="pricing-workflow-step-mark" aria-hidden="true">
+                <span className="pricing-workflow-icon"><Icon name={index === 0 ? "image" : index === 1 ? "palette" : "play"} /></span>
+                <span className="pricing-workflow-number">0{index + 1}</span>
+                <span className="pricing-workflow-connector"><Icon name="arrow" /></span>
+              </div>
               <h3>{title}</h3>
               <p>{copy}</p>
-            </article>
+            </li>
           ))}
-        </div>
-        <Link className="text-link pricing-product-link" href="/product">
-          Explore every feature <Icon name="arrow" />
-        </Link>
+        </ol>
       </section>
       <CountryStories />
       <PageFAQs

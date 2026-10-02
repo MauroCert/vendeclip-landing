@@ -20,7 +20,8 @@ export function TemplatesPage() {
         <Link href="/product">Product</Link><span aria-hidden="true">/</span><span>Templates</span>
       </nav>
 
-      <section className={`container ${styles.hero}`}>
+      <section className="page-hero-shell">
+        <div className={`container ${styles.hero}`}>
         <div className={styles.heroLabel}><span className={styles.kicker}>THE TEMPLATE COLLECTION</span><span className={styles.edition}>Four ways to tell the story</span></div>
         <div className={styles.heroGrid}>
           <h1>A home has character.<br />{" "}Your video should, <em>too.</em></h1>
@@ -29,6 +30,7 @@ export function TemplatesPage() {
             <a href="#collection" className={styles.underlinedLink}>Explore the collection <Icon name="arrow" /></a>
           </div>
         </div>
+      </div>
       </section>
 
       <TemplateCollection />

@@ -4,7 +4,9 @@ import Link from "next/link";
 
 import { LegalPage, type LegalSection } from "@/components/legal-page";
 
-export const metadata = { title: "Privacy | VendeClip" };
+export const metadata = { title: "Privacy | VendeClip",
+  description: "Explicamos qué información maneja VendeClip, para qué la usamos y qué opciones tenés sobre tus datos.",
+};
 
 const effectiveDate = "20 de julio de 2026";
 

@@ -5,7 +5,7 @@ import { metadata as sourceMetadata } from "@/views/(auth)/forgot-password/page"
 export async function generateMetadata(props: {params: Promise<{locale?: string}>}) {
  const params = await props.params;
  setRequestLocale(params.locale ?? 'en');
- return localizedMetadata(sourceMetadata);
+ return localizedMetadata(sourceMetadata, '/forgot-password');
 }
 export default async function Page(props: {params: Promise<{locale?: string}>}) {
  const params = await props.params;

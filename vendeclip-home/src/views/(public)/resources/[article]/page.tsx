@@ -18,7 +18,7 @@ export async function generateMetadata({
 }) {
   const { article } = await params;
   const selected = resources.find((r) => r.slug === article);
-  return { title: `${selected?.title ?? "Resources"} | VendeClip` };
+  return { title: `${selected?.title ?? "Resources"} | VendeClip`, description: selected?.intro };
 }
 export default async function ResourcePage({
   params,

@@ -7,6 +7,7 @@ import { Icon } from "@/components/icon";
 import { resources } from "@/lib/resources";
 export const metadata = {
   title: "Resources for real estate video marketing | VendeClip",
+  description: "Practical ideas for creating property videos, publishing with context, and turning attention into a conversation.",
 };
 export default function ResourcesPage() {
   const localize = useLocalizer();

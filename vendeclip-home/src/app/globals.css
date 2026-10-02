@@ -3759,10 +3759,156 @@ html:not(:lang(en)) .button { white-space: normal; text-align: center; }
 @media(prefers-reduced-motion:reduce) { .site-footer .footer-socials a, .footer-wordmark i { transition: none; transform: none; } }
 .site-footer .footer-top, .site-footer .footer-brand, .site-footer .footer-bottom { background: transparent; }
 
-.customer-brokerages { text-align: center; padding-block: 64px; border-bottom: 1px solid var(--line); }
-.customer-brokerages h2 { font-size: clamp(28px, 3.5vw, 42px); font-weight: 400; margin: 14px 0; }
-.customer-brokerages > p { color: var(--muted); font-size: 15px; line-height: 1.7; }
-.customer-brokerage-logos { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; margin-top: 32px; }
-.customer-brokerage-logo { display: grid; place-items: center; padding: 28px 20px; min-height: 130px; border: 1px solid #e3e7de; border-radius: 16px; background: #fafbf8; }
-.customer-brokerage-logo img { width: 100%; max-width: 210px; height: 70px; object-fit: contain; }
-@media(max-width:700px) { .customer-brokerage-logos { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; } .customer-brokerage-logo { padding: 18px 14px; min-height: 105px; } .customer-brokerage-logo img { height: 58px; } }
+/* Compact logo rail, inspired by Nexus UI Logo Clouds on 21st.
+   Keep genuine affiliations visible without repeating logos or implying partnerships. */
+.customer-brokerages { display: grid; grid-template-columns: minmax(210px, .85fr) minmax(0, 2fr); align-items: center; gap: 52px; padding: 30px 32px; margin-block: 24px; position: relative; isolation: isolate; overflow: hidden; border: 1px solid #d9e7e0; border-radius: 18px; background: radial-gradient(ellipse at 0% 0%, #cce9dfaa, transparent 58%), radial-gradient(ellipse at 100% 100%, #f1dcc299, transparent 56%), #fcfcf7; box-shadow: inset 0 1px 0 #ffffffd9, 0 12px 35px -30px #235a4a44; }
+.customer-brokerages::after { content: ""; position: absolute; bottom: 0; left: 32px; right: 32px; height: 2px; background: linear-gradient(90deg, #2d8076 0%, #73b7a3 28%, #c7d6a5 53%, #d9b58a 77%, #c98670 100%); opacity: .8; pointer-events: none; }
+.customer-brokerage-intro { position: relative; padding-left: 22px; }
+.customer-brokerage-intro::before { content: ""; position: absolute; left: 0; top: 5px; bottom: 5px; width: 2px; background: linear-gradient(#278477, #c4cba0, #e6b695); }
+.customer-brokerage-mark { display: flex; align-items: center; gap: 3px; height: 12px; margin-bottom: 10px; }
+.customer-brokerage-mark i { width: 3px; height: 6px; border-radius: 2px; background: #268879; }
+.customer-brokerage-mark i:nth-child(2) { height: 12px; background: #69ac98; }
+.customer-brokerage-mark i:nth-child(3) { height: 9px; background: #ce9277; }
+.customer-brokerages h2 { color: #204b41; font-size: clamp(21px, 2vw, 27px); font-weight: 400; line-height: 1.15; letter-spacing: -.6px; margin: 0; }
+.customer-brokerage-intro > p { max-width: 290px; color: #586b61; font-size: 12px; line-height: 1.6; margin: 9px 0 0; }
+.customer-brokerage-logos { display: flex; align-items: center; justify-content: space-around; gap: 24px; min-width: 0; }
+.customer-brokerage-logo { display: grid; place-items: center; flex: 1 1 0; min-width: 0; height: 68px; position: relative; }
+.customer-brokerage-logo + .customer-brokerage-logo::before { content: ""; position: absolute; left: -12px; top: 23px; height: 22px; width: 1px; background: #cad9cb; }
+.customer-brokerage-logo img { width: 100%; max-width: 154px; height: 45px; object-fit: contain; filter: saturate(.9); opacity: 1; transition: filter 350ms, scale 350ms; }
+.customer-brokerage-logo[data-brand="remax"] img { max-width: 86px; height: 54px; }
+.customer-brokerage-logo[data-brand="safti"] img { max-width: 126px; height: 38px; }
+.customer-brokerage-logos[data-logo-count="1"] { justify-content: flex-start; }
+.customer-brokerage-logos[data-logo-count="1"] .customer-brokerage-logo { flex: 0 1 180px; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .customer-brokerage-logo:hover img { filter: saturate(1.15); scale: 1.04; }
+}
+@media(max-width:900px) {
+  .customer-brokerages { padding-inline: 22px; gap: 28px; grid-template-columns: minmax(180px, .8fr) minmax(0, 1.5fr); }
+  .customer-brokerage-logos { gap: 16px; flex-wrap: wrap; }
+  .customer-brokerage-logo { flex-basis: calc(50% - 16px); height: 53px; }
+  .customer-brokerage-logo + .customer-brokerage-logo::before { display: none; }
+  .customer-brokerage-logo img { max-width: 130px; height: 38px; }
+  .customer-brokerage-logo[data-brand="remax"] img { height: 44px; }
+}
+@media(max-width:540px) {
+  .customer-brokerages { grid-template-columns: 1fr; gap: 22px; padding: 24px 20px; border-radius: 14px; }
+  .customer-brokerages::after { left: 20px; right: 20px; }
+  .customer-brokerage-intro { display: grid; grid-template-columns: 1fr; padding-left: 16px; }
+  .customer-brokerage-mark { display: none; }
+  .customer-brokerage-intro > p { max-width: 100%; margin-top: 7px; }
+  .customer-brokerage-logos { gap: 12px 22px; justify-content: flex-start; }
+  .customer-brokerage-logo { height: 46px; }
+  .customer-brokerage-logos[data-logo-count="1"] .customer-brokerage-logo { flex-basis: 120px; }
+}
+@media(prefers-reduced-motion:reduce) { .customer-brokerage-logo img { transition: none; } }
+
+
+/* Home motion studies: connected steps, floating formats, and a cinematic close.
+   Inspired by the beam/card patterns in the 21st community catalog. */
+.workflow .steps { position: relative; padding-top: 30px; }
+.workflow .steps > article { position: relative; min-width: 0; }
+.workflow-track { position: absolute; inset: 0 16.6% auto; height: 2px; background: #e0e8dc; }
+.workflow-track::after { content: ""; position: absolute; inset: -1px auto -1px 0; width: 24%; background: linear-gradient(90deg, transparent, #7b9959, transparent); }
+.workflow-track i { position: absolute; top: -5px; width: 12px; height: 12px; border: 3px solid white; border-radius: 50%; background: #6e8558; box-shadow: 0 0 0 1px #cbd7c2; }
+.workflow-track i:nth-child(2) { left: calc(50% - 6px); }
+.workflow-track i:nth-child(3) { right: 0; }
+.workflow .step-visual { position: relative; background: radial-gradient(ellipse at 50% 100%, #edf3e8, #fff 75%); border-color: #dfe7d8; }
+.workflow .step-visual::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(110deg, transparent 35%, #ffffffb3 50%, transparent 65%); transform: translateX(-120%); }
+.workflow .step-title > span { display: grid; place-items: center; width: 30px; height: 30px; flex-shrink: 0; border: 1px solid #d8e2ce; border-radius: 50%; background: #f5f8f1; color: #476338; }
+.workflow .color-dots i:nth-child(2) { background: #c3d3b3; }
+.workflow .color-dots i:nth-child(3) { background: #ddceb6; }
+.workflow .mini-style-card { box-shadow: 0 12px 25px -16px #30472766; }
+.export-strip[data-home-motion] { padding-block: 28px; position: relative; overflow: hidden; border-color: #dbe5d2; background: linear-gradient(110deg, #f7faf3, #fff 65%); }
+.export-strip > .export-formats { flex-shrink: 0; gap: 9px; align-items: center; height: 80px; }
+.export-formats i { display: grid; align-items: end; justify-items: center; position: relative; width: 39px; height: 68px; border: 3px solid #fff; border-radius: 7px; background: linear-gradient(0deg, #14251c99, transparent 80%), url('/media/costa-villa.webp') center/cover; box-shadow: 0 5px 16px #273b2520; transform: rotate(-8deg); }
+.export-formats i:nth-child(2) { width: 54px; height: 54px; transform: rotate(2deg); }
+.export-formats i:nth-child(3) { width: 74px; height: 43px; transform: rotate(8deg); }
+.export-formats span { color: white; font: 9px/1.8 monospace; }
+.broker-section[data-home-motion] { position: relative; overflow: hidden; background: radial-gradient(ellipse at 100% 0%, #eef4e6, #fff 65%); gap: 65px; }
+.broker-list { position: relative; padding-left: 28px; gap: 14px; }
+.broker-list > article, .broker-list > article:last-child { position: relative; padding: 20px; border: 1px solid #e0e7da; border-radius: 15px; background: #ffffffec; box-shadow: 0 5px 20px -16px #30472755; }
+.broker-list > article::before { content: ""; position: absolute; top: 40px; left: -29px; width: 28px; height: 1px; background: #bfd0ae; }
+.broker-list > article > div { min-width: 0; }
+.broker-connection { position: absolute; inset: 40px auto 65px 0; width: 1px; background: #d3dfc9; }
+.broker-connection > span { position: absolute; z-index: 1; left: -15px; top: calc(50% - 15px); width: 31px; height: 31px; display: grid; place-items: center; border-radius: 10px; background: #2c4628; color: #fff; font-size: 16px; font-weight: 700; box-shadow: 0 0 0 6px #f4f8ef; }
+.broker-connection > i { position: absolute; top: 0; left: -2px; width: 5px; height: 20px; border-radius: 4px; background: linear-gradient(transparent, #7f9a65, transparent); }
+.broker-connection > i:nth-of-type(2) { top: 40%; }
+.broker-connection > i:nth-of-type(3) { top: 75%; }
+.home-faq .faq-list details { transition: border-color 250ms, background-color 250ms, box-shadow 250ms; }
+.home-faq .faq-list details:hover { border-color: #b1c39e; box-shadow: 0 8px 25px -20px #39572c66; }
+.home-faq .faq-list details[open] { border-left: 3px solid #7b925f; }
+.home-faq .faq-indicator { transition: background-color 250ms, color 250ms; }
+.final-cta[data-home-motion] { position: relative; isolation: isolate; border-color: #d6e1cb; }
+.final-cta .cta-copy { position: relative; isolation: isolate; background: linear-gradient(120deg, #fff 10%, #f3f7ed); }
+.cta-orbits { position: absolute; z-index: -1; width: 330px; height: 330px; right: -140px; top: -165px; pointer-events: none; }
+.cta-orbits > i { position: absolute; inset: 0; border: 1px solid #cfddc1; border-radius: 50%; }
+.cta-orbits > i:nth-child(2) { inset: 35px; }
+.cta-orbits > i:nth-child(3) { inset: 70px; }
+.cta-orbits > span { position: absolute; top: 50%; left: -16px; display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid #d3dfc8; border-radius: 50%; background: #fff; color: #5f7d47; }
+.final-cta .cta-image { overflow: hidden; }
+.cta-film { position: absolute; display: flex; align-items: center; gap: 4px; left: 24px; right: 24px; bottom: 24px; height: 42px; padding: 8px 13px; border: 1px solid #ffffff80; border-radius: 10px; background: #ffffffdf; }
+.cta-film > span { display: grid; place-items: center; width: 24px; flex-shrink: 0; }
+.cta-film svg { width: 15px; height: 15px; }
+.cta-film > i { flex: 1; height: 20px; border-radius: 2px; background: url('/media/costa-villa.webp') center/cover; }
+.cta-film::after { content: ""; position: absolute; left: 50px; top: 5px; bottom: 5px; width: 2px; background: #73915a; box-shadow: 0 0 0 2px #ffffff88; }
+@keyframes home-beam { from { transform: translateX(-30%); } to { transform: translateX(360%); } }
+@keyframes home-sheen { 0%, 40% { transform: translateX(-120%); } 80%, 100% { transform: translateX(120%); } }
+@keyframes home-float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -7px; } }
+@keyframes home-travel { 0%, 100% { translate: 0 0; opacity: .3; } 50% { translate: 0 45px; opacity: 1; } }
+@keyframes home-film { from { left: 50px; } to { left: calc(100% - 13px); } }
+@keyframes home-orbit { to { rotate: 360deg; } }
+@media (prefers-reduced-motion: no-preference) {
+  .workflow-track::after { animation: home-beam 5s linear infinite; }
+  .workflow .step-visual::after { animation: home-sheen 7s ease-in-out infinite; }
+  .workflow .steps > article:nth-of-type(2) .step-visual::after { animation-delay: 1s; }
+  .workflow .steps > article:nth-of-type(3) .step-visual::after { animation-delay: 2s; }
+  .export-formats i { animation: home-float 5s ease-in-out infinite; }
+  .export-formats i:nth-child(2) { animation-delay: -.8s; }
+  .export-formats i:nth-child(3) { animation-delay: -1.6s; }
+  .broker-connection > i { animation: home-travel 4s ease-in-out infinite; }
+  .broker-connection > i:nth-of-type(2) { animation-delay: -1.3s; }
+  .broker-connection > i:nth-of-type(3) { animation-delay: -2.6s; }
+  .cta-film::after { animation: home-film 7s linear infinite; }
+  .cta-orbits { animation: home-orbit 45s linear infinite; }
+  [data-home-motion]:not([data-motion-active="true"]) *,
+  [data-home-motion]:not([data-motion-active="true"]) *::after,
+  html[data-design-motion="paused"] [data-home-motion] *,
+  html[data-design-motion="paused"] [data-home-motion] *::after,
+  html[data-motion-hidden="true"] [data-home-motion] *,
+  html[data-motion-hidden="true"] [data-home-motion] *::after { animation-play-state: paused !important; }
+}
+@media (min-width: 1000px) {
+  .home-faq > div:first-child { position: sticky; top: 120px; align-self: start; }
+}
+@media (max-width: 1000px) {
+  .export-strip > .export-formats { display: none; }
+  .broker-section[data-home-motion] { gap: 35px; }
+}
+@media (max-width: 760px) {
+  .workflow .steps { padding-top: 0; }
+  .workflow-track { display: none; }
+  .broker-list { padding-left: 20px; }
+  .broker-list > article, .broker-list > article:last-child { padding: 17px; }
+  .broker-list > article::before { left: -21px; width: 20px; }
+  .cta-orbits { opacity: .6; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-faq .faq-list details, .home-faq .faq-indicator { transition: none; }
+}
+
+/* Border Beam adapted from Dillion Verma / 21st:
+   https://21st.dev/@dillionverma/components/border-beam
+   Plain CSS replaces the registry's Tailwind utilities. */
+.home-border-beam { position: absolute; z-index: 2; inset: 0; border: 1.5px solid transparent; border-radius: inherit; pointer-events: none; mask: linear-gradient(transparent, transparent), linear-gradient(white, white); mask-clip: padding-box, border-box; mask-composite: intersect; }
+@keyframes home-border-beam { to { offset-distance: 100%; } }
+@media (prefers-reduced-motion: no-preference) {
+  .home-border-beam::after { content: ""; position: absolute; width: 180px; aspect-ratio: 1; background: linear-gradient(to left, #7c985a, #c0d1a8, transparent); offset-anchor: 90% 50%; offset-path: inset(0 round 20px); animation: home-border-beam 14s linear infinite; }
+}
+
+/* Keep translated calls to action readable on compact phones. */
+@media (max-width: 540px) {
+  .hero-actions { flex-direction: column; align-items: stretch; }
+  .hero-actions > a { width: 100%; min-width: 0; flex-shrink: 0; justify-content: center; }
+  .hero-actions > .button-secondary { min-height: 48px; white-space: normal; }
+  .hero-notes { flex-wrap: wrap; }
+}

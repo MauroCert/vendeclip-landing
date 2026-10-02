@@ -17,12 +17,14 @@ export function AnalyticsPage() {
   return localize((
     <div className={styles.page}>
       <nav className={`container ${styles.breadcrumb}`} aria-label="Breadcrumb"><Link href="/product">Product</Link><span aria-hidden="true">/</span><span>Analytics</span></nav>
-      <section className={`container ${styles.hero}`}>
+      <section className="page-hero-shell">
+        <div className={`container ${styles.hero}`}>
         <span className={styles.kicker}>EVERY LISTING TELLS A STORY</span>
         <div className={styles.heroGrid}>
           <h1>See what gets attention.<br />{" "}Know where to <em>focus.</em></h1>
           <div><p>See which properties get viewed, which videos get watched, and where buyers take the next step.</p><Link className={styles.textLink} href="/sign-up">Start with your next listing <Icon name="arrow" /></Link></div>
         </div>
+      </div>
       </section>
 
       <AnalyticsExplorer />

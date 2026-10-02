@@ -5,6 +5,7 @@ import { ListingToVideo } from "@/components/listing-to-video";
 import { products } from "@/lib/product-pages";
 export const metadata = {
   title: "The complete real estate video platform | VendeClip",
+  description: "Create the video, give it your signature, and turn interest into a conversation. Everything your property story needs, together.",
 };
 export default function ProductPage() {
   const localize = useLocalizer();

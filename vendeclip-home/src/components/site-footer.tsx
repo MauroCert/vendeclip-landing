@@ -58,7 +58,7 @@ export function SiteFooter() {
         <div>
           <h3>Explore VendeClip</h3>
           <Link href="/resources">Resources</Link>
-          <a href={`https://vendeclip.com/${localize.locale}/markets`}>Markets</a>
+          <a href={`/${localize.locale}#markets`}>Markets</a>
           <Link href="/examples">Video examples</Link>
           <Link href="/how-it-works">How it works</Link>
           <a href="https://aprender.vendeclip.com">Help center</a>

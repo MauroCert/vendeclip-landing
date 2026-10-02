@@ -16,9 +16,13 @@ const revealSelectors = [
   ".auth-form-wrap > p", ".auth-form", ".auth-visual", ".auth-result",
   "[data-template-reveal]", "[data-analytics-reveal]",
   ".platforms > p",
+  ".customer-brokerage-intro",
+  ".customer-brokerage-logo",
   ".page-section-heading",
   ".product-link-card",
   ".benefit-grid > article",
+  ".pricing-workflow-heading",
+  ".pricing-workflow-steps > li",
   ".feature-story",
   ".resource-card",
   ".workflow-explainer > article",
@@ -26,6 +30,7 @@ const revealSelectors = [
   ".platforms > div > span",
   ".section-heading",
   ".steps > article",
+  ".broker-list > article",
   ".feature-intro",
   ".transformation-demo",
   ".presenter-visual",
@@ -53,10 +58,9 @@ export function PageMotion() {
     let observer: IntersectionObserver | undefined;
     let frame = 0;
     let previewObserver: IntersectionObserver | undefined;
-    let mutationObserver: MutationObserver | undefined;
     const tracked = new WeakSet<Element>();
     const blocked = () => preference.matches || root.dataset.designMotion === "paused";
-    const previewSelectors = ".feature-art, .page-hero-visual, .channel-hero, .format-cards, .auth-visual";
+    const previewSelectors = ".feature-art, .page-hero-visual, .channel-hero, .format-cards, .auth-visual, .hero-shell, [data-home-motion]";
     function trackContent() {
       document.querySelectorAll<HTMLElement>(revealSelectors).forEach(element => {
         if (!element.classList.contains("is-revealed") && !blocked()) observer?.observe(element);
@@ -124,7 +128,7 @@ export function PageMotion() {
     if ("IntersectionObserver" in window) previewObserver = new IntersectionObserver(entries => {
       entries.forEach(entry => { (entry.target as HTMLElement).dataset.motionActive = String(entry.isIntersecting); });
     }, { threshold: .08 });
-    mutationObserver = new MutationObserver(trackContent);
+    const mutationObserver = new MutationObserver(trackContent);
     mutationObserver.observe(document.body, { childList: true, subtree: true });
     enableMotion();
     trackContent();

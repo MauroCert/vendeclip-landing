@@ -18,7 +18,7 @@ export function CountryStories() {
   const profile = personas.find(person => person.country === country)!;
   const city = profile?.country === 'JP' && localize.locale !== 'ja' ? 'Tokyo' : profile?.city ?? '';
   const names = new Intl.DisplayNames([localize.locale], { type: 'region' });
-  return <section className={`container ${styles.section}`} aria-labelledby={`${id}-title`}>
+  return <section id="markets" className={`container ${styles.section}`} aria-labelledby={`${id}-title`}>
     <div className={styles.intro}>
       <div>
         <span className="eyebrow">{localize.text('FOR PROPERTY PROFESSIONALS')}</span>

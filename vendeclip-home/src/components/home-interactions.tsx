@@ -2,7 +2,6 @@
 import { useLocalizer } from "@/i18n/use-localizer";
 
 
-import { LanguageSwitcher } from "./language-switcher";
 import Image from "next/image";
 import Link from "next/link";
 import { products } from "@/lib/product-pages";
@@ -92,7 +91,6 @@ export function Header() {
           </Link>
         </nav>
         <div className="nav-actions">
-          <LanguageSwitcher compact />
           <Link className="login-link" href="/sign-in">
             Log in
           </Link>
@@ -118,6 +116,7 @@ export function VideoCard({
   title,
   label,
   poster,
+  posterAlt,
   video,
   large = false,
   autoplay = false,
@@ -126,6 +125,7 @@ export function VideoCard({
   title: string;
   label: string;
   poster: string;
+  posterAlt?: string;
   video: string;
   large?: boolean;
   autoplay?: boolean;
@@ -171,7 +171,7 @@ export function VideoCard({
       <article className={`video-card ${large ? "video-card-large" : ""}`}>
         <Image
           src={poster}
-          alt={title}
+          alt={posterAlt ?? title}
           fill
           sizes={
             large

@@ -21,12 +21,14 @@ export async function CustomerBrokerages() {
     : brokerages;
   return localize(
     <section className="customer-brokerages container" aria-labelledby="customer-brokerages-heading">
-      <span className="eyebrow">REAL ESTATE PROFESSIONALS. REAL CONNECTIONS.</span>
-      <h2 id="customer-brokerages-heading">Where our customers work</h2>
-      <p>Used by individual agents at these real estate brands.</p>
-      <div className="customer-brokerage-logos" style={{ gridTemplateColumns: `repeat(${Math.min(relevant.length, 2)}, minmax(0, 1fr))`, maxWidth: relevant.length === 1 ? 360 : undefined, marginInline: "auto" }}>
+      <div className="customer-brokerage-intro">
+        <span className="customer-brokerage-mark" aria-hidden="true"><i /><i /><i /></span>
+        <h2 id="customer-brokerages-heading">Where our customers work</h2>
+        <p>Used by individual agents at these real estate brands.</p>
+      </div>
+      <div className="customer-brokerage-logos" data-logo-count={relevant.length}>
         {relevant.map(({ name, file }) => (
-          <div className="customer-brokerage-logo" key={file}>
+          <div className="customer-brokerage-logo" data-brand={file.replace(".svg", "")} key={file}>
             <Image src={`/media/brokerages/${file}`} alt={name} width={220} height={76} />
           </div>
         ))}

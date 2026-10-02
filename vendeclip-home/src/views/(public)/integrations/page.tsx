@@ -5,6 +5,7 @@ import { PageHero, PageCTA, PageFAQs } from "@/components/public-components";
 import { Icon, type IconName } from "@/components/icon";
 export const metadata = {
   title: "Social sharing and integrations | VendeClip",
+  description: "Finish the video with the file, caption, and property link you need. Choose the next step for each platform and keep the campaign moving.",
 };
 const channels: [string, IconName, string, string][] = [
   [

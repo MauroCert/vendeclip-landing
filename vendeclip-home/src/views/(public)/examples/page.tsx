@@ -2,7 +2,9 @@
 import { useLocalizer } from "@/i18n/use-localizer";
 import { PageHero, PageCTA } from "@/components/public-components";
 import { TemplateGallery } from "@/components/public-interactions";
-export const metadata = { title: "Real property video examples | VendeClip" };
+export const metadata = { title: "Real property video examples | VendeClip",
+  description: "Real clips. Real exports. Explore different ways to turn property photos into videos people want to watch.",
+};
 export default function ExamplesPage() {
   const localize = useLocalizer();
   return localize((
