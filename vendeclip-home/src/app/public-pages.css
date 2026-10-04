@@ -87,28 +87,9 @@
 .public-page {
   background: #ffffff;
 }
-.page-breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding-top: 30px;
-  color: var(--muted);
-  font-size: 13px;
-}
-.page-breadcrumb a:hover {
-  color: #191919;
-}
-.page-breadcrumb svg {
-  transform: rotate(-90deg);
-  width: 12px;
-  height: 12px;
-}
 .page-hero {
   padding-top: 78px;
   padding-bottom: 80px;
-}
-.page-breadcrumb + .page-hero {
-  padding-top: 48px;
 }
 .page-hero-split {
   display: grid;

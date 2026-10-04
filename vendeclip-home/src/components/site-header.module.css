@@ -9,9 +9,9 @@
 .actions { display: flex; align-items: center; gap: 22px; }
 .login { font-size: 13px; font-weight: 500; white-space: nowrap; }
 .login:hover { color: #377e6c; }
-.cta { display: flex; align-items: center; justify-content: center; gap: 17px; padding: 6px 6px 6px 18px; min-height: 44px; border-radius: 100px; background: #205749; color: #fffef9; font-size: 12px; font-weight: 500; white-space: nowrap; transition: background .2s; }
+.cta { display: flex; align-items: center; justify-content: center; gap: 17px; padding: 6px 6px 6px 18px; min-height: 44px; border-radius: 100px; background: var(--brand-action); color: #fffef9; font-size: 12px; font-weight: 500; white-space: nowrap; transition: background .2s; }
 .cta:hover { background: #163e34; }
-.cta > span { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: #ffffff14; }
+.cta > span { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: #a3e3ce; color: #174c40; }
 .cta svg { width: 16px; height: 16px; transition: transform .2s; }
 .cta:hover svg { transform: rotate(-35deg); }
 .dropdown { position: absolute; top: calc(100% + 10px); left: 0; right: 0; padding: 12px; border: 1px solid #d9e2d8; border-radius: 24px; background: #fffef9; box-shadow: 0 28px 65px -25px #15382f40; animation: appear .2s ease-out; max-height: calc(100dvh - 124px); overflow-y: auto; }

@@ -116,7 +116,7 @@ export function Header() {
       </nav>
       <div className={styles.actions}>
         <Link className={styles.login} href="/sign-in">Log in</Link>
-        <Link className={styles.cta} href="/sign-up">Start creating <span><Icon name="arrow" /></span></Link>
+        <Link className={styles.cta} href="/sign-up">Start for free <span><Icon name="arrow" /></span></Link>
         <button ref={mobileTrigger} type="button" className={styles.mobileToggle} aria-label="Open menu" aria-expanded="false" aria-controls="mobile-navigation" onClick={() => {
           setSelection(null);
           previousOverflow.current = document.body.style.overflow;
@@ -151,7 +151,7 @@ export function Header() {
           <p className={styles.groupTitle}>Resources</p>
           <div className={styles.mobileResources}>{resources.map(item => <Link key={item.href} href={item.href} aria-current={path === item.href ? "page" : undefined}><Icon name={item.icon} />{item.title}</Link>)}</div>
         </nav>
-        <div className={styles.drawerFooter}><div className={styles.mobileAuth}><Link className={styles.login} href="/sign-in">Log in</Link><Link className={styles.cta} href="/sign-up">Start creating <span><Icon name="arrow" /></span></Link></div><LanguageSwitcher /></div>
+        <div className={styles.drawerFooter}><div className={styles.mobileAuth}><Link className={styles.login} href="/sign-in">Log in</Link><Link className={styles.cta} href="/sign-up">Start for free <span><Icon name="arrow" /></span></Link></div><LanguageSwitcher /></div>
       </div>
     </dialog>
   </header>);

@@ -1,0 +1,9 @@
+# Color-study prompt
+
+Tool: built-in image generation, edit mode.
+Reference: approved Open Scene / Lightform / Scene Shift exploration, first concept only.
+Output: `open-scene-color-study.png`.
+
+> Refine ONLY the FIRST / LEFT 'OPEN SCENE' logo concept from the reference for implementation on VendeClip's existing warm cream and teal website. Preserve its recognizable rounded asymmetric open film/image frame, transparent rectangular central opening and emerging coral triangular corner. Change its BLUE/CYAN frame colors to a beautifully crafted rich deep teal #205d51 main structure, lighter vibrant sea-glass #50bca5 upper surface, soft luminous mint #a3e3ce at the turn, deep #123f38 shaded left edge. Coral emerging corner transitions from warm apricot #efa27d to warm coral #de795f, never red or magenta. Colored dimensionality must remain controlled elegant 2D vector gradients, not 3D gloss. Wordmark 'VendeClip' in dark forest #20352f, sophisticated medium-bold sans, one word. Create a focused elegant landscape brand proof sheet with one large complete logo horizontal centered at top on warm cream #faf9f5, and beneath three smaller panels: isolated symbol on cream, colorful symbol on deep teal rounded-square app tile, tiny logo in a simple cream website header with understated green button. No other logo directions. Text only 'VendeClip', small heading 'Open Scene / Teal, mint & coral'. User wants premium yet energetic global creative software for real estate videos and images; retain the approved concept precisely while adapting colors to the warm existing brand. Spacious design, clean backgrounds, careful optical balance. Do not introduce monograms, additional symbols, extra framing decorations or watermarks.
+
+Production assets are separately reconstructed SVGs with the site's outlined PP Neue Montreal wordmark; see `vendeclip-home/public/brand/README.md`.

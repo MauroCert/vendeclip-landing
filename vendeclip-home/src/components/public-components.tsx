@@ -35,7 +35,7 @@ export function PageHero({
         <h1>{title}</h1>
         <p>{description}</p>
         <div className="page-hero-actions">
-          <InteractiveCta>Start creating</InteractiveCta>
+          <InteractiveCta>Start for free</InteractiveCta>
           <Link href="/examples" className="text-link">
             See real examples <Icon name="play" />
           </Link>
@@ -119,11 +119,6 @@ export function FeaturePage({ product }: { product: ProductPage }) {
   const localize = useLocalizer();
   return localize((
     <>
-      <div className="page-breadcrumb container">
-        <Link href="/product">Product</Link>
-        <Icon name="chevron" />
-        <span>{product.name}</span>
-      </div>
       <PageHero
         eyebrow={product.name}
         title={product.title}

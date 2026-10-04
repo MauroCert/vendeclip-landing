@@ -16,7 +16,6 @@ export function AnalyticsPage() {
   const oliveDays = getPeriod(olive, 30).current;
   return localize((
     <div className={styles.page}>
-      <nav className={`container ${styles.breadcrumb}`} aria-label="Breadcrumb"><Link href="/product">Product</Link><span aria-hidden="true">/</span><span>Analytics</span></nav>
       <section className="page-hero-shell">
         <div className={`container ${styles.hero}`}>
         <span className={styles.kicker}>EVERY LISTING TELLS A STORY</span>

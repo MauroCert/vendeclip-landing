@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <div className="hero-notes">
               <span>
-                <Icon name="check" /> Start for free
+                <Icon name="check" /> 2 free videos
               </span>
               <span>
                 <Icon name="check" /> No credit card needed

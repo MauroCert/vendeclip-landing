@@ -3,6 +3,7 @@ import { CookieSettingsButton } from "./cookie-consent";
 
 import { useLocalizer } from "@/i18n/use-localizer";
 import Link from "next/link";
+import Image from "next/image";
 import { Icon, Logo, type IconName } from "./icon";
 import { products } from "@/lib/product-pages";
 // Destinations match the current VendeClip landing footer; four are platform roots.
@@ -20,7 +21,7 @@ export function SiteFooter() {
     <footer className="container footer site-footer" id="site-footer">
       <div className="footer-invitation">
         <h2>Every property has a story.<br /><em>Make yours worth watching.</em></h2>
-        <Link href="/sign-up" className="footer-create">Create your first video <Icon name="arrow" /></Link>
+        <Link href="/sign-up" className="footer-create">Start for free <Icon name="arrow" /></Link>
       </div>
       <div className="footer-top">
         <div className="footer-brand">
@@ -74,7 +75,7 @@ export function SiteFooter() {
         <div><h3>Newsletter</h3><p>Get tips and updates to sell more with video.</p></div>
         <a href={`https://vendeclip.com/${localize.locale}#newsletter-email`}>Subscribe on VendeClip <Icon name="arrow" /></a>
       </div>
-      <div className="footer-wordmark" aria-hidden="true">Vende<span>Clip</span><i>↗</i></div>
+      <div className="footer-wordmark" aria-hidden="true"><Image src="/brand/vendeclip-wordmark.svg" alt="" width={647} height={150} sizes="(max-width: 760px) 90vw, 80vw" className="footer-wordmark-image" unoptimized /><i>↗</i></div>
       <div className="footer-bottom">
         <span>
           © {new Date().getFullYear()} VendeClip. All rights reserved.

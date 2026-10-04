@@ -70,7 +70,7 @@ export function PresenterWalkthrough({ imageSrc = "/media/presenter.webp" }: { i
             </button>
           ))}
         </div>
-        <Link href="/sign-up" className="text-link">Create your first video <Icon name="arrow" /></Link>
+        <Link href="/sign-up" className="text-link">Start for free <Icon name="arrow" /></Link>
         <small>Illustrative example. Presenter and voice features vary by plan.</small>
       </div>
     </section>

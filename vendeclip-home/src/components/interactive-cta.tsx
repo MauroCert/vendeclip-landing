@@ -7,7 +7,7 @@ import { Icon } from "./icon";
  * https://21st.dev/@dillionverma/components/interactive-hover-button
  * Uses the site's CSS and icons, with native link semantics and keyboard support.
  */
-export function InteractiveCta({ href = "/sign-up", children = "Create your first video", className = "" }: { href?: string; children?: string; className?: string }) {
+export function InteractiveCta({ href = "/sign-up", children = "Start for free", className = "" }: { href?: string; children?: string; className?: string }) {
   const localize = useLocalizer();
   return localize(<Link href={href} className={`button interactive-cta ${className}`}>
     <span className="cta-default"><i aria-hidden="true" />{children}</span>

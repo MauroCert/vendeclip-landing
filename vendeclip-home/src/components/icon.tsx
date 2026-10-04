@@ -79,12 +79,13 @@ export function Logo() {
   return localize((
     <Link href="/" className="logo" aria-label="VendeClip home">
       <Image
-        src="/brand/vendeclip-logo.png"
+        src="/brand/vendeclip-logo.svg"
         alt="VendeClip"
         width={1200}
         height={321}
         sizes="180px"
         className="brand-logo"
+        unoptimized
         priority
       />
     </Link>

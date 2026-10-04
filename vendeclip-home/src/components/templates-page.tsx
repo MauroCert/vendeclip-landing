@@ -16,9 +16,6 @@ export function TemplatesPage() {
   const localize = useLocalizer();
   return localize((
     <div className={styles.page}>
-      <nav className={`container ${styles.breadcrumb}`} aria-label="Breadcrumb">
-        <Link href="/product">Product</Link><span aria-hidden="true">/</span><span>Templates</span>
-      </nav>
 
       <section className="page-hero-shell">
         <div className={`container ${styles.hero}`}>
