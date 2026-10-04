@@ -1,4 +1,5 @@
 import { LanguageSwitcher } from "./language-switcher";
+import { CookieSettingsButton } from "./cookie-consent";
 
 import { useLocalizer } from "@/i18n/use-localizer";
 import Link from "next/link";
@@ -62,6 +63,7 @@ export function SiteFooter() {
           <Link href="/examples">Video examples</Link>
           <Link href="/how-it-works">How it works</Link>
           <a href="https://aprender.vendeclip.com">Help center</a>
+          <Link href="/support">Support</Link>
           <Link href="/sign-up">
             Create an account <Icon name="arrow" />
           </Link>
@@ -80,6 +82,7 @@ export function SiteFooter() {
         <div>
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
+          <CookieSettingsButton />
           <LanguageSwitcher />
         </div>
       </div>

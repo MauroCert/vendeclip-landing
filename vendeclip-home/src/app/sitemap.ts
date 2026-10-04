@@ -6,7 +6,7 @@ import { languageAlternates, pageUrl, siteUrl } from '@/lib/seo/config';
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = [
     {path: '', images: ['/media/lake-house.webp', '/media/ai-motion-reel-poster.jpg', '/media/magazine-poster.jpg']},
-    ...['/product', '/pricing', '/examples', '/how-it-works', '/integrations', '/resources', '/privacy', '/terms'].map(path => ({path, images: [] as string[]})),
+    ...['/product', '/pricing', '/examples', '/how-it-works', '/integrations', '/resources', '/privacy', '/terms', '/support'].map(path => ({path, images: [] as string[]})),
     ...products.map(product => ({path: `/product/${product.slug}`, images: [product.image]})),
     ...resources.map(resource => ({path: `/resources/${resource.slug}`, images: [resource.image]})),
   ];

@@ -7,6 +7,7 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "@/app/globals.css";
 import { PageMotion } from "@/components/page-motion";
+import { CookieConsent } from "@/components/cookie-consent";
 import "@/app/public-pages.css";
 import "@/app/brand-theme.css";
 const montreal = localFont({
@@ -52,7 +53,7 @@ export default async function SiteDocument({
       className={`${montreal.variable} ${editorial.variable}`}
       style={{ backgroundColor: "var(--background)" }}
     >
-      <body style={{ backgroundColor: "var(--background)" }}><NextIntlClientProvider locale={locale} messages={clientMessages}>{children}<PageMotion /></NextIntlClientProvider></body>
+      <body style={{ backgroundColor: "var(--background)" }}><NextIntlClientProvider locale={locale} messages={clientMessages}>{children}<PageMotion /><CookieConsent /></NextIntlClientProvider></body>
     </html>
   ));
 }

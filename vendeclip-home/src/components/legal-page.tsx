@@ -1,6 +1,8 @@
 
 import { useLocalizer } from "@/i18n/use-localizer";
 import type { ReactNode } from "react";
+import Link from "next/link";
+import { CookieSettingsButton } from "./cookie-consent";
 export interface LegalSection {
   title: string;
   body?: ReactNode;
@@ -70,6 +72,7 @@ export function LegalPage({
           Para consultas sobre estos documentos, escribinos a{" "}
           <a href="mailto:hola@vendeclip.com">hola@vendeclip.com</a>.
         </p>
+        <div className="legal-utility-links"><Link href="/support">Support</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><CookieSettingsButton /></div>
       </aside>
     </article>
   ));

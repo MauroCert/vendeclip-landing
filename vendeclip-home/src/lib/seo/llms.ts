@@ -20,7 +20,7 @@ export async function llmGuide(locale: Locale, full = false) {
     ...[
       ['Product', '/product'], ['Pricing', '/pricing'], ['How it works', '/how-it-works'],
       ['Video examples', '/examples'], ['Integrations', '/integrations'],
-      ['Resources', '/resources'], ['Privacy', '/privacy'], ['Terms', '/terms'],
+      ['Resources', '/resources'], ['Support', '/support'], ['Privacy', '/privacy'], ['Terms', '/terms'],
     ].map(([label, path]) => `- ${link(label, path)}`), '',
     `## ${t('Product')}`, '',
     ...products.flatMap(product => [

@@ -1,0 +1,123 @@
+{
+  "es": {
+    "title": "Soporte de VendeClip",
+    "intro": "Te ayudamos con tu cuenta, créditos, facturación, creación de videos y conexión con ChatGPT.",
+    "helpTitle": "Cómo pedir ayuda",
+    "help": "Incluí el correo de tu cuenta, una descripción del problema y, si corresponde, el identificador del proyecto. No envíes contraseñas ni datos de tarjeta.",
+    "chatTitle": "VendeClip en ChatGPT",
+    "chat": "Necesitás una cuenta de VendeClip y los créditos y permisos correspondientes para generar videos. Usá entre 3 y 12 enlaces HTTPS directos a fotos; los enlaces a publicaciones inmobiliarias no reemplazan las fotos.",
+    "progress": "La generación puede tardar varios minutos. Pedile a ChatGPT que consulte el progreso del mismo proyecto antes de volver a crear el video.",
+    "contact": "Escribinos a",
+    "support": "Soporte"
+  },
+  "en": {
+    "title": "VendeClip support",
+    "intro": "We help you with your account, credits, billing, video creation and connection to ChatGPT.",
+    "helpTitle": "How to get help",
+    "help": "Include your account email, a description of the issue and, if applicable, the project ID. Do not send passwords or card details.",
+    "chatTitle": "VendeClip in ChatGPT",
+    "chat": "You need a VendeClip account and the appropriate credits and permissions to generate videos. Use between 3 and 12 direct HTTPS links to photos; property listing links do not replace photos.",
+    "progress": "Generation may take several minutes. Ask ChatGPT to check the progress of the same project before creating the video again.",
+    "contact": "Email us at",
+    "support": "Support"
+  },
+  "pt": {
+    "title": "Suporte da VendeClip",
+    "intro": "Ajudamos você com sua conta, créditos, faturamento, criação de vídeos e conexão com o ChatGPT.",
+    "helpTitle": "Como pedir ajuda",
+    "help": "Inclua o e-mail da sua conta, uma descrição do problema e, se aplicável, o identificador do projeto. Não envie senhas nem dados de cartão.",
+    "chatTitle": "VendeClip no ChatGPT",
+    "chat": "Você precisa de uma conta VendeClip e dos créditos e permissões correspondentes para gerar vídeos. Use entre 3 e 12 links HTTPS diretos para fotos; links de anúncios imobiliários não substituem as fotos.",
+    "progress": "A geração pode levar vários minutos. Peça ao ChatGPT para verificar o progresso do mesmo projeto antes de criar o vídeo novamente.",
+    "contact": "Escreva para",
+    "support": "Suporte"
+  },
+  "fr": {
+    "title": "Assistance VendeClip",
+    "intro": "Nous vous aidons avec votre compte, vos crédits, la facturation, la création de vidéos et la connexion à ChatGPT.",
+    "helpTitle": "Comment demander de l’aide",
+    "help": "Indiquez l’adresse e-mail de votre compte, une description du problème et, le cas échéant, l’identifiant du projet. N’envoyez ni mots de passe ni données de carte bancaire.",
+    "chatTitle": "VendeClip dans ChatGPT",
+    "chat": "Vous avez besoin d’un compte VendeClip ainsi que des crédits et autorisations nécessaires pour générer des vidéos. Utilisez entre 3 et 12 liens HTTPS directs vers des photos ; les liens vers des annonces immobilières ne remplacent pas les photos.",
+    "progress": "La génération peut prendre plusieurs minutes. Demandez à ChatGPT de vérifier l’avancement du même projet avant de recréer la vidéo.",
+    "contact": "Écrivez-nous à",
+    "support": "Assistance"
+  },
+  "it": {
+    "title": "Assistenza VendeClip",
+    "intro": "Ti aiutiamo con account, crediti, fatturazione, creazione di video e collegamento a ChatGPT.",
+    "helpTitle": "Come chiedere aiuto",
+    "help": "Includi l’e-mail del tuo account, una descrizione del problema e, se pertinente, l’identificativo del progetto. Non inviare password o dati della carta.",
+    "chatTitle": "VendeClip in ChatGPT",
+    "chat": "Per generare video servono un account VendeClip e i crediti e le autorizzazioni appropriati. Usa da 3 a 12 link HTTPS diretti a foto; i link agli annunci immobiliari non sostituiscono le foto.",
+    "progress": "La generazione può richiedere diversi minuti. Chiedi a ChatGPT di verificare l’avanzamento dello stesso progetto prima di creare di nuovo il video.",
+    "contact": "Scrivici a",
+    "support": "Assistenza"
+  },
+  "de": {
+    "title": "VendeClip-Support",
+    "intro": "Wir helfen Ihnen bei Fragen zu Ihrem Konto, Guthaben, Abrechnung, Videoerstellung und der Verbindung mit ChatGPT.",
+    "helpTitle": "So erhalten Sie Hilfe",
+    "help": "Geben Sie Ihre Konto-E-Mail-Adresse, eine Beschreibung des Problems und gegebenenfalls die Projekt-ID an. Senden Sie keine Passwörter oder Kartendaten.",
+    "chatTitle": "VendeClip in ChatGPT",
+    "chat": "Zum Erstellen von Videos benötigen Sie ein VendeClip-Konto sowie das entsprechende Guthaben und die erforderlichen Berechtigungen. Verwenden Sie 3 bis 12 direkte HTTPS-Links zu Fotos; Links zu Immobilienanzeigen ersetzen keine Fotos.",
+    "progress": "Die Erstellung kann einige Minuten dauern. Bitten Sie ChatGPT, den Fortschritt desselben Projekts zu prüfen, bevor Sie das Video erneut erstellen.",
+    "contact": "Schreiben Sie uns an",
+    "support": "Support"
+  },
+  "nl": {
+    "title": "VendeClip-ondersteuning",
+    "intro": "We helpen u met uw account, credits, facturering, het maken van video’s en de verbinding met ChatGPT.",
+    "helpTitle": "Hulp vragen",
+    "help": "Vermeld het e-mailadres van uw account, een beschrijving van het probleem en, indien van toepassing, de project-ID. Stuur geen wachtwoorden of kaartgegevens.",
+    "chatTitle": "VendeClip in ChatGPT",
+    "chat": "U hebt een VendeClip-account en de juiste credits en machtigingen nodig om video’s te genereren. Gebruik 3 tot 12 directe HTTPS-links naar foto’s; links naar woningadvertenties vervangen de foto’s niet.",
+    "progress": "Het genereren kan enkele minuten duren. Vraag ChatGPT om de voortgang van hetzelfde project te controleren voordat u de video opnieuw maakt.",
+    "contact": "Mail ons op",
+    "support": "Ondersteuning"
+  },
+  "pl": {
+    "title": "Pomoc VendeClip",
+    "intro": "Pomagamy w sprawach konta, kredytów, rozliczeń, tworzenia filmów i połączenia z ChatGPT.",
+    "helpTitle": "Jak uzyskać pomoc",
+    "help": "Podaj adres e-mail konta, opis problemu i, jeśli dotyczy, identyfikator projektu. Nie wysyłaj haseł ani danych karty.",
+    "chatTitle": "VendeClip w ChatGPT",
+    "chat": "Do generowania filmów potrzebujesz konta VendeClip oraz odpowiednich kredytów i uprawnień. Użyj od 3 do 12 bezpośrednich linków HTTPS do zdjęć; linki do ogłoszeń nieruchomości nie zastępują zdjęć.",
+    "progress": "Generowanie może potrwać kilka minut. Poproś ChatGPT o sprawdzenie postępu tego samego projektu przed ponownym utworzeniem filmu.",
+    "contact": "Napisz do nas na",
+    "support": "Pomoc"
+  },
+  "tr": {
+    "title": "VendeClip desteği",
+    "intro": "Hesabınız, kredileriniz, faturalandırma, video oluşturma ve ChatGPT bağlantısı konularında yardımcı oluyoruz.",
+    "helpTitle": "Nasıl yardım alabilirsiniz?",
+    "help": "Hesabınızın e-posta adresini, sorunun açıklamasını ve varsa proje kimliğini ekleyin. Şifre veya kart bilgisi göndermeyin.",
+    "chatTitle": "ChatGPT’de VendeClip",
+    "chat": "Video oluşturmak için bir VendeClip hesabına ve gerekli kredi ve izinlere ihtiyacınız vardır. Fotoğraflara doğrudan yönlendiren 3 ila 12 HTTPS bağlantısı kullanın; emlak ilanı bağlantıları fotoğrafların yerini tutmaz.",
+    "progress": "Oluşturma birkaç dakika sürebilir. Videoyu yeniden oluşturmadan önce ChatGPT’den aynı projenin ilerlemesini kontrol etmesini isteyin.",
+    "contact": "Bize e-posta gönderin:",
+    "support": "Destek"
+  },
+  "ja": {
+    "title": "VendeClipサポート",
+    "intro": "アカウント、クレジット、請求、動画作成、ChatGPTとの接続についてサポートします。",
+    "helpTitle": "お問い合わせ方法",
+    "help": "アカウントのメールアドレス、問題の説明、該当する場合はプロジェクトIDをお知らせください。パスワードやカード情報は送信しないでください。",
+    "chatTitle": "ChatGPTでVendeClipを使う",
+    "chat": "動画の生成にはVendeClipアカウントと必要なクレジットおよび権限が必要です。写真への直接HTTPSリンクを3〜12件使用してください。物件掲載ページへのリンクは写真の代わりにはなりません。",
+    "progress": "生成には数分かかる場合があります。動画を再作成する前に、同じプロジェクトの進捗を確認するようChatGPTに依頼してください。",
+    "contact": "お問い合わせ先",
+    "support": "サポート"
+  },
+  "en-gb": {
+    "title": "VendeClip support",
+    "intro": "We help you with your account, credits, billing, video creation and connection to ChatGPT.",
+    "helpTitle": "How to get help",
+    "help": "Include your account email, a description of the issue and, if applicable, the project ID. Do not send passwords or card details.",
+    "chatTitle": "VendeClip in ChatGPT",
+    "chat": "You need a VendeClip account and the appropriate credits and permissions to generate videos. Use between 3 and 12 direct HTTPS links to photos; property listing links do not replace photos.",
+    "progress": "Generation may take several minutes. Ask ChatGPT to check the progress of the same project before creating the video again.",
+    "contact": "Email us at",
+    "support": "Support"
+  }
+}
